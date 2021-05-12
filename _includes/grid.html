@@ -1,0 +1,19 @@
+<section id="{{ include.section | downcase }}" data-aos="fade-in">
+    <h1 class="thumbnail-title">{{ include.section }}</h1>
+    
+    <r-grid columns={{ include.columns }} columns-s=1>
+    {% assign projects = site.data.projects | where: "type", include.section %}
+    {% for project in projects %}
+        <r-cell class="thumbnail">
+            <a href="{{project.name | downcase | replace: ' ', '-'}}">
+                <img style="width:100%" src="{{ project.thumbnail }}" />
+                <h3>
+                    {{ project.name }}
+                    {% if project.fav %} ⭐{% endif %}
+                </h3>
+            </a>
+        </r-cell>
+    {% endfor %}
+    </r-grid>
+</section>
+

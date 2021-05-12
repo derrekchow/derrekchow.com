@@ -1,0 +1,9 @@
+
+{% assign items = "Research, Experiments, Design, Art" | split: ", " %}
+
+{% for item in items %}
+    {% assign url = item | downcase %}
+    <a class="internal" id="{{url}}-nav" href="/#{{url}}">{{item}}</a>
+{% endfor %}
+<hr/>
+<a class="internal" id="about-nav" href="/#about">About</a>

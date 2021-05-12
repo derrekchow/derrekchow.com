@@ -1,0 +1,60 @@
+$font-color: white
+$link-color: var(--blue)
+$unit: 1rem
+$bold: bold
+$black: black
+
+a, h3>a
+    text-decoration: underline rgba(255,255,255,0.8)
+    &:hover, a
+        cursor: pointer
+        color: $link-color
+        text-decoration-color: $link-color
+
+h1
+    text-align: left
+    line-height: 1.2 !important
+    font-weight: 600
+
+.subtitle
+    opacity: 0.5 !important
+    font-weight: normal
+
+hr
+    background-color: $font-color
+
+html
+    background-color: #222
+
+body
+    text-align: justify
+    background-color: $black
+    color: $font-color
+    padding-left: $unit*3.7
+
+nav .active
+    text-indent: -1.18rem
+    &::before
+        content: "● "
+
+nav
+    position: sticky
+    top: $unit*3
+    
+    a
+        text-decoration: none
+        display: block
+        margin-bottom: $unit/2
+
+.thumbnail
+    margin-bottom: $unit*2
+    h3
+        font-weight: normal
+
+.blocks
+    text-align: left
+    img
+        width: 100%
+
+section, header
+    padding-top: $unit*8 !important

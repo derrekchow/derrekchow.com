@@ -1,0 +1,44 @@
+---
+layout: main
+---
+<a onClick="history.back()" class="subtitle" data-aos="fade-in">⟵ back to {{ page.type }}</a><br/><br/><br/>
+<div class="project">
+    <article>
+        <r-grid columns=3 class="blocks">
+                <r-cell span=2>
+                    <img src="{{ page.thumbnail }}"  />
+                </r-cell>
+                <r-cell span=1 data-aos="fade-in">
+                    <h1>{{ page.title }}</h1>
+                    <label style="opacity:0.5">{{ page.year }}</label><br/><br/>
+                    <label>Role: <i>{{ page.skills | join: ", " }}</i></label><br/><br/>
+                    <p>{{page.about}}</p>
+                </r-cell>
+        {% for block in page.blocks %}
+            {% if block.full %}
+                <r-cell span=row>
+                    <img src="{{ block.url }}" />
+                </r-cell>
+                <r-cell span=2></r-cell>
+                <r-cell span=1 data-aos="fade-in">
+                    <label>{{ block.label }}</label>
+                </r-cell>
+            {% else %}
+                <r-cell span=2>
+                    <img src="{{ block.url }}" />
+                </r-cell>
+                <r-cell span=1 data-aos="fade-in">
+                    <label>{{ block.label }}</label>
+                </r-cell>
+            {% endif %}
+        {% endfor %}
+        </r-grid>
+    </article>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+        var element = document.getElementById("{{ page.type | downcase }}-nav");
+        element.classList.add("active");
+    });
+</script>
