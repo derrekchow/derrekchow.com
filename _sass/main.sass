@@ -5,7 +5,8 @@ $bold: bold
 $black: black
 
 a, h3>a
-    text-decoration: underline rgba(255,255,255,0.8)
+    text-decoration: underline rgba(255, 255, 255, 0.7)
+    -webkit-text-decoration: underline rgba(255, 255, 255, 0.7)
     &:hover, a
         cursor: pointer
         color: $link-color
@@ -31,6 +32,7 @@ body
     background-color: $black
     color: $font-color
     padding-left: $unit*3.7
+    font-weight: light
 
 nav .active
     text-indent: -1.18rem
@@ -58,3 +60,16 @@ nav
 
 section, header
     padding-top: $unit*8 !important
+
+.narrow 
+    max-width: 480px
+
+#quotes
+    p, hr
+        max-width: 480px
+    hr
+        margin-top: $unit*4
+        margin-bottom: $unit*4
+        opacity: 0.2
+    blockquote
+        opacity: 0.6

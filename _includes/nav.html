@@ -7,3 +7,11 @@
 {% endfor %}
 <hr/>
 <a class="internal" id="about-nav" href="/#about">About</a>
+
+{% if page.id == "quotes"  %}
+<a class="internal active">Quotes</a>
+{% endif %}
+
+{% if page.id == 404  %}
+<a class="internal active">404 Not Found</a>
+{% endif %}
