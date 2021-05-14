@@ -5,30 +5,29 @@ plugins:
   - kramdown-parser-gfm
 
 page_gen_dirs: true
-permalink: /:basename
 
 page_gen:
 - data: projects
   template: project
-  dir: '/'
+  dir: '/pages'
   name_expr: "record['name'].gsub(' ', '-').downcase"
   title: name
   filter_condition: "record['type'] == 'Research'"
 - data: projects
   template: project
-  dir: '/'
+  dir: '/pages'
   name_expr: "record['name'].gsub(' ', '-').downcase"
   title: name
   filter_condition: "record['type'] == 'Experiments'"
 - data: projects
   template: project
-  dir: '/'
+  dir: '/pages'
   name_expr: "record['name'].gsub(' ', '-').downcase"
   title: name
   filter_condition: "record['type'] == 'Design'"
 - data: projects
   template: project
-  dir: '/'
+  dir: '/pages'
   name_expr: "record['name'].gsub(' ', '-').downcase"
   title: name
   filter_condition: "record['type'] == 'Art'"
