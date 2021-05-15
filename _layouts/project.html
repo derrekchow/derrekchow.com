@@ -4,7 +4,7 @@ layout: main
 <a href="/#{{ page.type | downcase}}" onClick="if (history.length > 1) { event.preventDefault(); history.back(); }" class="subtitle" data-aos="fade-in">⟵ back to {{ page.type }}</a><br/><br/><br/>
 <div class="project">
     <article>
-        <r-grid columns=3 class="blocks">
+        <r-grid columns=3 class="blocks" columns-s=1>
                 <r-cell span=2>
                     <img src="{{ page.thumbnail }}"  />
                 </r-cell>
