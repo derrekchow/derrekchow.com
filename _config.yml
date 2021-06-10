@@ -34,9 +34,3 @@ page_gen:
 
 sass:
   style: compressed
-
-defaults:
-  - scope:
-      path: "assets"
-    values:
-      image: true
