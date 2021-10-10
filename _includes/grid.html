@@ -4,12 +4,13 @@
     <r-grid columns={{ include.columns }} columns-s=1>
     {% assign projects = site.data.projects | where: "type", include.section %}
     {% for project in projects %}
-        {% if project.hide != true %}
+        {% if (project.show != false and project.show != "new") or (project.show == "new" and page.url == "/new") %}
         <r-cell class="thumbnail">
             <a href="{{project.name | downcase | replace: ' ', '-'}}">
                 <img style="width:100%" src="{{ project.thumbnail }}" />
                 <h3>
                     {{ project.name }}
+                    {{ projects.show }}
                     {% if project.fav %} ⭐{% endif %}
                 </h3>
             </a>
