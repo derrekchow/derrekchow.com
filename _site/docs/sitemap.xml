@@ -85,6 +85,10 @@
 <loc>http://localhost:4000/virtual-pottery.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/assets/cv.pdf</loc>
+<lastmod>2021-11-16T13:30:35+01:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/assets/wordbot.pdf</loc>
 <lastmod>2021-09-23T10:12:04+02:00</lastmod>
 </url>
