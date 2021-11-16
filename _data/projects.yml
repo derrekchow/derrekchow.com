@@ -3,7 +3,7 @@
 - name:           AirRacket
   show:           new
   type:           Research
-  year:           2021
+  year:           2021 - 2022
   thumbnail:      https://lh3.googleusercontent.com/2ORMYsU_oFhRpc92IuBUJYowjZIBk5LkpbzENvGIjRviUj-ZxHXheBiyKpVRvNc4c7Y1fTrtfK7h8oW5hWmqA3CAM79mhLRTbtJaYTSxdizLV3o2lNBco-fa2Pn6UFY6hlVFWZb0NCArE-RYkun830taBMM8OlgjV4yMDf6IC3Zm8Xgq6epxN95wgQn0rlRu3ryJAu06zj8mPVx6CZgup9clZhHcp1_SPmgQBPLJURk4JCp46aRq2OwH2tRd_BSAfNa6joUKY-E8WBKrbKmh-z8Wft5rQ0d82056jccjojyOXfVJfQ92d-EUcuZ_GfbkzBa12IMd7e9S95Ml69SGmmZ2FePYI0bdjgClWHma0nPKohD5DD7a-sNbGJQ8ZVPH9-tdVurjJm7G5a1Qz17Spx637GN4GC4afvRWmLlGadK_pxTVQc3x7Mz34MZOIF6BQ7q5EYPdSzF12OFlFWDiK_Xll-U1_hcxZF0ZL1VzoujqIfTQc-FYTYq_SfHMcdCEEqN7ocTcHMfnt464oFKa3oMnzpMbeEWXp04nbGF3YabtAyP8JnAvAZwayR_uyMkqzw5InOfjvE8av-ToKgnShzjKhbIUc8088diL0PZU4HjCuDxYIhj8qKEtIQLuU3MuMm2p4bPXI3EtaTAMG-7B80D0F4GUECPQ6FoPjLuinoj4oWb2GcUUgHwrAoqNJl3pheF_FqUREI21JTs8i0hoe1Y=s1366-no?authuser=0
   role:         
     - visualization
@@ -58,10 +58,10 @@
   year:           2020 – ongoing
   thumbnail:      https://lh3.googleusercontent.com/dvrUgTexXa234ApqzgXopCadB4r_gHvF91qCpek2MQQGjJ_9dsa2Q6whYZwc9wHtEIQMoh-8K6kORbubdZZ4SptUcMsFau0tj8Vsm7tZnMjpg3LO2_OGPHHcDDzZF0-dBZQyRR0WR9pUD_JBo59zjZ3OGo4lFbctoJwKryPKyPAXzuXnSmmsuoZUJRu-9wWqPKUSfNVfIbI4ZpcC6Cl9RxGVeDvpvE6p5lFqsdqVGdVtzIMUbCYqXCvZGAWL4C6axLnS3yhHaBwcWFrrSOUFCYFdbpKIsj6_C6Pa_TQbFDNy55NJOtugkOSS6IUuYTIF2mwphs39VNW8kI5LNUhZadiG1nbQXxJCNAbc_8h0TYEQ1f_1wv66EL4OZ0ynkYQaWMdwKlaqvBj7-xYr6f4mJsX5DzNzhyOO5sJi1nnQRN3rs0FXKyaEsBM9s_7Q6wuae-mktCg-zRklCTQPRHtoc4LJLQVCxhQYZ9dar5zDhGbRriKwc8cDHHVfoP80Ns3kuCihFx_dxUc9FKOQI5U8VF0Eb53UOMDdBov9Boe6S7YuQQMHBpI97ffTcTLqjvA_iCNebZcV6p-iWUCO_bSXZ62RHh3hFyb9xdspooiJjXpobRtbiN5-exIw7oo4yODDFhBXiaxsGkT-vARgMCG75fBRQae6IPtz2vtN2_t9YQHLkVKuAZSCYUJqrTgJlaW7wTnhu1ffPBCCMvKr7n86EK4=w1270-h1268-no?authuser=0
   role:         
+    - design and concept
     - IMU sensing
     - gesture recognition
-    - electronic and physical fabrication
-    - software
+    - fabrication
     - hardware
   collab:
     - Graxie Xia
@@ -98,18 +98,18 @@
 
 # Experiments
 
-- name:           Touch Designer / Audiovisual
-  show:           false
+- name:           Body and Space
   type:           Experiments
-  year:           2021 - ongoing
-  about:          VJ
+  show:        false
+  year:           2021
+  about:          A series of code sketches to reframe the body's relation to space.
   blocks:
     -
       url:        
-      label:      Visuals at SF AV Club
+      label:      
     -
       url:        
-      label:      RNDR
+      label:      
 
 - name:           Creative Coding
   type:           Experiments
@@ -133,7 +133,7 @@
   year:           2018
   about:          Assitive device that speak out loud text on a page when pointed to in real time. Winner of the <i>Best Hardware Hack</i>, <i>Best 3D Printing</i>, and <i>3rd Place Overall</i> awards at MasseyHacks III.<br/><br/><a href="https://devpost.com/software/point-to-speech-rvsa0y" target="_blank">more info</a>
   role:         
-    - physical and electronic fabrication
+    - fabrication
     - interaction design
     - software
     - hardware
@@ -150,8 +150,7 @@
   thumbnail:      https://lh3.googleusercontent.com/DrRGQyzTVl8e83oPBu_SiGlCeuUVdXEVIr-foHeUYbBRfzNjZr2M9USbW-8CiW2Mr_ac2jMA2niT1L-DzC257pk0K1dQ6Sf8QpSX7jmaAkIrWhD50QqZ4ucpgyFNPSR4oHMWSm1mAUEN2VQ0PMDrkr9dlg2Zdq94uQ394MQCG9UPDt2jb5w4cZ1hNh63QYXsqar9orILeIUCYeXj76vGIo4jP1NxH2M3wQnNqBkkN6ljnwGA8LxRMibBqJlbo9iq7bmdpQnAH-HvBfzqCzkpVzYrfZolSNRLzPn63FZXJoY98W7A67gdUQjNXlWX4f0KfCq9IY7FMui4__x8YxtWNcg-4ZHcsAqJjFI6xLWB9EIXUjaKoXF3tR8ixLaTzacAoX01ZJv_bYnBWrnwadDIHJesXhnh-F7xEVjEGeklPbgPfy5sTZvMBS7N7OVIUVGK92UFOrHG_fKzWEkcN9vZ3w9tTvTFJxGadvStToWWb66MIJJbTsHA1E08qV2AX_SO1joXdYxa-VWgG0zU3QJZEOJtd7wV-U0vjSUtB5I2H5xxGJo5ALeGNIkCtNaQgAuwyh0F6BxDCgA3oH-D5TBgy2xxa-0p0HftLd2zwenXUEY86J4vgCtf-BY7KkurxagNDyoliXf7ETIuNQYxm1xvA14hXRjZRR4fYn-pxg4SPt6oW3iZxHEzDJVQ1zUHWsZcNH9DN5ZnxrpnTtVHPNVlV9I=s1382-no?authuser=0
   year:           2018
   role:
-    - physical and electronic fabrication
-    - software
+    - fabrication
     - hardware
   collab:
     - Max Steiner
@@ -171,7 +170,7 @@
   thumbnail:      https://lh3.googleusercontent.com/Jq25gtdzeSebFNyXqsZgjjnGQx-L0_DrvsXDYL22WL23anAtgpH8gLbQ_E5Ii3oRLhvRzGOhSmCl5Q-IO2zUvpH4pgekbaq5ghBNTXDBHcNuIZb39DG6ngWBiUm-3E-83ryFAyHfYUmcor1SRTtcujJCnux6UfxXvK6lmrDf2T3tnnt_AEjTwDcJWIsCeqJ_d8w-mrCEtSBv5qIDR-ew2XQXmnWEJQT4YydlihQoIxnfa5JcBcH5il-pyQpS48BxOIWEc3kC88L4czhhKVi_kqVDXE1_HWX-Er1u8I1eTecEShznE-tmDp69hUYFR_-CCpZ4eMEl00m_SciQpsh3xerv9-D_u0MWtD18rWWmHtZbviS07t-ZPzbeToJBKAEdKk9HsNpVr0U6GXFXiBtkSSYpaB6fGParsm53Nqhxb5MIOvZCDJzXfh4gX14YLZcLRhc48gQq_FmeJN03D_cnpX_XSZJmn9Do2d_XGhe7lJMVDrDEYVXBb209oWAntqtlwddJBoa9q7aw1TrHMkT9beJ0G3QyboLwC0rC_XNs3VKvQTOU7d-_GcNtT135agro7h5hkUE7hHRXZiOyTNm5or-nr-QXDkf8mUwtDGXsXajjm_gmx5M91I6ixpP--XuNDX0Tpaoju0cyl-_mBzlJL0r1Jzi4OgldchOu_10MNUGEJqmINAE4t5BxdaiYMnXSa1je3JO4R5fhgxRGnPNJvdE=w1844-h1382-no?authuser=0
   year:           2017
   role:
-    - software
+    - fabrication
     - hardware
   collab:
     - Edwin Zhang
@@ -196,8 +195,7 @@
   year:           2018
   role:
     - image recognition
-    - physical and electronic fabrication
-    - software
+    - fabrication
     - hardware
   collab:
     - Ibrahim Irfan
@@ -212,6 +210,41 @@
 
 
 # Design
+
+- name:           Library of the Future
+  type:           Design
+  show:           false
+  year:           2021
+  collab:
+    - RNDR
+    - TU Delft Library
+  about:          Design research into how visualize digtial representations of 
+  blocks:
+    -
+      url:        
+      label:      Early prototyping to investigate the idea of using books as an interface
+    -
+      url:        
+      label:     
+
+- name:           Modular Media Facade
+  type:           Design
+  show:           false
+  year:           2021
+  about:          
+  collab:
+    - RNDR
+    - 
+  role:
+    - lighting design prototyping
+    - information design
+  blocks:
+    -
+      url:        
+      label:      
+    -
+      url:        
+      label:      RNDR
 
 - name:           UW Flow
   type:           Design
@@ -342,6 +375,19 @@
 
 
 # Art
+
+- name:           VJing
+  type:           Art
+  show:           false
+  year:           2021
+  about:          Collection of visuals for live audiovisual performances
+  blocks:
+    -
+      url:        
+      label:      
+    -
+      url:        
+      label:      
 
 - name:       Rot
   type:       Art
