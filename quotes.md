@@ -133,7 +133,7 @@ plus the infiniteness of life.*
 
 <hr/>
 
-"The first computers were human. The last computers may be human as well."
+"The first computers were human, and the last computer may be the human as well."
 
 > Taeyoon Choi
 
@@ -143,3 +143,17 @@ plus the infiniteness of life.*
 progress had come to mean the progress of the Machine."
 
 > E. M. Forester, *The Machine Stops*, 1909
+
+<hr/>
+
+"All our steps in creating or absorbing material of the record proceed through one of the senses—the tactile when we touch keys, the oral when we speak or listen, the visual when we read. Is it not possible that some day the path may be established more directly?"
+
+> Vannevar Bush, *As We May Think*, 1945
+
+<hr/>
+
+“The work of past ages accumulates, and is remade again.”
+
+> Osamu Sato, *The Art of Computer Designing*, 1993
+
+<hr/>

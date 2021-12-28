@@ -16,22 +16,22 @@ layout: main
                     <p>{{page.about}}</p>
                 </r-cell>
         {% for block in page.blocks %}
-            {% if block.full %}
-                <r-cell span=row>
-                    <img src="{{ block.url }}" />
-                </r-cell>
-                <r-cell span=2></r-cell>
-                <r-cell span=1 data-aos="fade-in">
-                    <label>{{ block.label }}</label>
-                </r-cell>
-            {% else %}
-                <r-cell span=2>
-                    <img src="{{ block.url }}" />
-                </r-cell>
-                <r-cell span=1 data-aos="fade-in">
-                    <label>{{ block.label }}</label>
-                </r-cell>
-            {% endif %}
+            <r-cell span=2>
+                {% if block.image %}                    
+                    <img src="{{ block.image }}" />
+                {% elsif block.video %}
+                    <video src="{{block.video}}" width="100%"
+                    {% if block.videoSettings %}
+                        {{block.videoSettings}}
+                    {% else %}
+                        autoplay loop muted
+                    {% endif %}
+                     controlslist="nodownload noremoteplayback"></video>
+                {% endif %}
+            </r-cell>
+            <r-cell span=1 data-aos="fade-in">
+                <label>{{ block.label }}</label>
+            </r-cell>
         {% endfor %}
         </r-grid>
     </article>
@@ -41,5 +41,16 @@ layout: main
     document.addEventListener("DOMContentLoaded", function(event) {
         var element = document.getElementById("{{ page.type | downcase }}-nav");
         element.classList.add("active");
+    });
+
+    var videos = document.querySelectorAll('video[controls]');
+    videos.forEach(video1 => {
+        video1.addEventListener('play', () => {
+            videos.forEach(video2 => {
+                if (video1 != video2) {
+                    video2.pause();
+                }
+            });
+        });
     });
 </script>

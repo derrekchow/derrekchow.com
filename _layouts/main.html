@@ -7,21 +7,21 @@ layout: compress
         {% include head.html %}
     </head>
     <body>
-        <r-grid columns=8>
-            <r-cell span=7 style="max-width:768px" id="{% if page.id %}{{page.id}}{% endif %}">
-                {{ content }}
-            </r-cell>
-            <r-cell span=1>
-                <nav>
-                    <a href="/"><b style="color:white; white-space: nowrap;">Derrek Chow</b></a><br/>
-                    {% include nav.html %}
-                </nav>
-            </r-cell>
-        </r-grid>
-
-        <section>
-            <p class="subtitle">© Derrek Chow 2021</p>
-        </section>
+        <main>
+            <!-- {% include slides.html %} -->
+            <!-- {% if page.home %}
+                
+            {% endif %} -->
+            <r-grid columns=8>
+                <r-cell span=7 style="max-width:768px;" id="{% if page.id %}{{page.id}}{% endif %}">
+                    {{ content }}
+                    <section data-aos="fade-in">
+                        <p class="subtitle">© Derrek Chow 2022</p>
+                    </section>
+                </r-cell>
+                <r-cell span=1>{% include nav.html %}</r-cell>
+            </r-grid>
+        </main>
         
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>AOS.init({ easing: 'ease-in-out-quart' });</script>

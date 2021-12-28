@@ -1,21 +1,27 @@
 
-{% assign items = "Research, Experiments, Design, Art" | split: ", " %}
+<nav>
+{% assign items = "Research, Design, Experiments, Art, About" | split: ", " %}
 
+<a href=""><b>Derrek Chow</b></a>
+<br/>
 {% for item in items %}
     {% assign url = item | downcase %}
     <a class="internal" id="{{url}}-nav" href="/#{{url}}">{{item}}</a>
 {% endfor %}
-<hr/>
-<a class="internal" id="about-nav" href="/#about">About</a>
+<!-- <a class="internal" id="about-nav" href="/#about">About</a> -->
 
 {% if page.id == "quotes"  %}
+<hr/>
 <a class="internal active">Quotes</a>
 {% endif %}
 
 {% if page.id == "interviews"  %}
+<hr/>
 <a class="internal active">Interviews</a>
 {% endif %}
 
 {% if page.id == 404  %}
+<hr/>
 <a class="internal active">404 Not Found</a>
 {% endif %}
+</nav>
