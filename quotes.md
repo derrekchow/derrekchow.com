@@ -11,9 +11,9 @@ id: quotes
 
 <hr/>
 
-The problem of the new world architecture is:<br/>
+"The problem of the new world architecture is:<br/>
 *The finiteness of mechanics<br/>
-plus the infiniteness of life.*
+plus the infiniteness of life.*"
 
 > Erich Mendelsohn, *Synthesis*, 1928
 
