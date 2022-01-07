@@ -5,7 +5,7 @@ permalink: /interviews
 id: interviews
 ---
 
-<a href="/" onClick="if (history.length > 1) { event.preventDefault(); history.back(); }" class="subtitle" data-aos="fade-in">⟵ back to Home</a><br/><br/>
+<a href="/" onClick="if (history.length > 1) { event.preventDefault(); history.back(); }" class="subtitle">⟵ back to Home</a><br/><br/>
 
 # Interviews
 

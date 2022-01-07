@@ -15,19 +15,12 @@ layout: compress
             <r-grid columns=8>
                 <r-cell span=7 style="max-width:768px;" id="{% if page.id %}{{page.id}}{% endif %}">
                     {{ content }}
-                    <section data-aos="fade-in">
+                    <section  >
                         <p class="subtitle">© Derrek Chow 2022</p>
                     </section>
                 </r-cell>
                 <r-cell span=1>{% include nav.html %}</r-cell>
             </r-grid>
         </main>
-        
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            $(document).ready(function() {
-                AOS.init({ easing: 'ease-in-out-quart' });
-            });
-        </script>
     </body>
 </html>
