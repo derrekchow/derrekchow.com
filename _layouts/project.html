@@ -4,19 +4,19 @@ layout: main
 <a href="/#{{ page.type | downcase}}" onClick="if (history.length > 1) { event.preventDefault(); history.back(); }" class="subtitle"  >⟵ back to {{ page.type }}</a><br/><br/><br/>
 <div class="project">
     <article>
-        <r-grid columns=3 class="blocks" columns-s=1>
-                <r-cell span=2>
-                    <img src="{{ page.thumbnail }}"  />
-                </r-cell>
-                <r-cell span=1  >
-                    <h1>{{ page.title }}</h1>
-                    <label style="opacity:0.5">{{ page.year }}</label><br/><br/>
-                    {% if page.role %} <label>Role: <i>{{ page.role | join: ", " }}</i></label><br/><br/> {% endif %}
-                    {% if page.collab %} <label>In collaboration with {{ page.collab | join: ", " }}.</label><br/><br/> {% endif %}
-                    <p>{{page.about}}</p>
-                </r-cell>
-        {% for block in page.blocks %}
+        <r-grid columns=5 class="blocks" columns-s=1>
+            <r-cell span=3>
+                <img src="{{ page.thumbnail }}"  />
+            </r-cell>
             <r-cell span=2>
+                <h1>{{ page.title }}</h1>
+                <label style="opacity:0.5">{{ page.year }}</label><br/><br/>
+                {% if page.role %} <label>Role: <i>{{ page.role | join: ", " }}</i></label><br/><br/> {% endif %}
+                {% if page.collab %} <label>In collaboration with {{ page.collab | join: ", " }}.</label><br/><br/> {% endif %}
+                <p>{{page.about}}</p>
+            </r-cell>
+        {% for block in page.blocks %}
+            <r-cell span=3>
                 {% if block.image %}                    
                     <img src="{{ block.image }}" />
                 {% elsif block.video %}
@@ -29,7 +29,7 @@ layout: main
                      controlslist="nodownload noremoteplayback"></video>
                 {% endif %}
             </r-cell>
-            <r-cell span=1  >
+            <r-cell span=2>
                 <label>{{ block.label }}</label>
             </r-cell>
         {% endfor %}
