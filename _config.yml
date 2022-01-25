@@ -31,6 +31,11 @@ page_gen:
   name_expr: "record['name'].gsub(' ', '-').downcase"
   title: name
   filter_condition: "record['type'] == 'Art'"
+- data: labs
+  template: project
+  dir: '/'
+  name_expr: "record['name'].gsub(' ', '-').downcase"
+  title: name
 
 sass:
   style: compressed
