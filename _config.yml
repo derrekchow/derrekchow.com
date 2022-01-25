@@ -33,7 +33,7 @@ page_gen:
   filter_condition: "record['type'] == 'Art'"
 - data: labs
   template: project
-  dir: '/'
+  dir: '/canhap501'
   name_expr: "record['name'].gsub(' ', '-').downcase"
   title: name
 
