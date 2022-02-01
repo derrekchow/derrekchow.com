@@ -206,11 +206,12 @@
   
   # https://lh3.googleusercontent.com/pw/AM-JKLXjp--rue4SgOi0897imRpyMUp9JM3WVs71owfAygMDOuKKFG0vASmDIV1QTzpovrDqh1rN_9d1N09YqWqGrFbMJj_mEjFjVR6dSr1jlcgiZ-ntMU31HpY_RekLGBtWgDdGQkLkeIwYTVAci8TIR79Z=w2070-h1379-no?authuser=0
   year:           2021
-  about:          A controllable suspended light instalation for audiovisual performances.  <br/><br/>Performed live at <a href="https://rndr.studio/" target="_blank">RNDR</a> in 2021 with music by Rein van der Woerd.<h2 style="color&#58;red">WARNING&#58; Photosensitive Content Below</h2>Videos contain intense strobe effects and sound.
+  about:          A controllable suspended light instalation for audiovisual performances.  <br/><br/>Performed live at <a href="https://rndr.studio/" target="_blank">RNDR</a> in 2021 with music by Rein van der Woerd.
   blocks:
     -
       video:        https://user-images.githubusercontent.com/17170744/147516905-8f331890-29c6-4e67-8315-92caae0bf029.mp4
       videoSettings: controls
+      label:        <h2 class="warning">⚠️ EPILEPSY WARNING ⚠️</h2>
     -
       video:        https://user-images.githubusercontent.com/17170744/147516911-a1a30c1c-5028-4b60-af79-da3de77eb9f4.mp4
       videoSettings: controls
@@ -245,7 +246,7 @@
   show:           new
   thumbnail:      https://lh3.googleusercontent.com/pw/AM-JKLWaffKCx3fbT2xKYD02D18EvMY5ahJO72tW_HVqDFu32ELZ58zeDhpWOsB2AzGHvop_NCpI7mSJzY7k8M0fLa0SWjRk_q-95UZmLxUyGBXjv8sW5teLuOZZAxk_ZT7GFYqxhaN3un-y4giQ7O1dy6oJ=s600-no?authuser=0
   year:           2021
-  about:          The Modular Media Facade (MMF) is a scalable and dynamic light sculpture consisting of customizable light modules.
+  about:          The Modular Media Facade (MMF) is a scalable and dynamic light sculpture composed of customizable light modules.
   collab:
     - RNDR
     - RAP Technologies
@@ -375,6 +376,20 @@
 
 # Art
 
+# Out of Bounds is an audiovisual composition of black and white generative pieces. Each piece represents a different aspect of technological sensory overload, consisting of hundreds of simple line/shape forms or “atoms” with erratic and rapid movements. As the composition progresses, the switching of pieces and behaviour of atoms becomes more intense. The quantity, sound, and speed of atoms collectively creates a visual and audio cacophony.
+- name: Out of Bounds
+  year: 2022
+  type: Art
+  about: “We live in an unending rainfall of images. The most powerful media transform the world into images and multiply it by means of the phantasmagoric play of mirrors. These are images stripped of the inner inevitability that ought to mark every image as form and as meaning, as a claim on the attention and as a source of possible meanings. Much of this cloud of visual images fades at once, like the dreams that leave no trace in the memory, but what does not fade is a feeling of alienation and discomfort.”<blockquote>— Italo Calvino, Six Memos for the Next Millennium, 1988</blockquote>
+  thumbnail: https://lh3.googleusercontent.com/pw/AM-JKLX9kt33l2eo5EIdj9Hl714pL-8rcEucr2dH8R9OsMTKhwSpjD-u9bxc5hH5-W-7GGqHGtXKGCdSxT6jo20egUn8c6ZxDj89tIqLMNI5PfPyVaSs5B3hiyHhifSUaRPn71UApYFMzIPoN-KceQlclsXM=s600-no?authuser=0
+  blocks:
+    - iframe: https://player.vimeo.com/video/671794015?h=390570e9d2
+      label: <h2 class="warning">⚠️ EPILEPSY WARNING ⚠️</h2>
+    - image: https://lh3.googleusercontent.com/pw/AM-JKLUq3rjhfrwK-kaCFlYFgnnqmb5pQGtYCb80qYxF3V2hvOKx7kg6cl2EvEbZiFzEaGda_g1ECyY17mVaJ6yb2d8gTzCL76-5KV-iUAgfVCRgMVe7caoCNS_fIsiYF4AqRi_UsSg1xyRyy5lz2LrAU1o0=s600-no?authuser=0
+    - image: https://lh3.googleusercontent.com/pw/AM-JKLUdB-DpuFCSQ1lu_2yU7CdDGz3KjJCDOcb7b-pVkmiNRLPwsLc8cU5vYss4NQ_QfzxgrwawAnoDOgYi9Gc5N4sSsrGqxWrB8O93tfBHgsoCw3ScnOQRQ1PSt9fj-AF27pUU1NicOkMV5357S3UE0Qkp=s600-no?authuser=0
+    - image: https://lh3.googleusercontent.com/pw/AM-JKLVcFfpJPJQPeMrK2KWGZx9WBls5XndWVezYjIRXA-tWioB7QJW9yQTTfsxa78H7YCZaI7Hl_zjz6yLHM1cY5D728z-1vZy1MZN2sGuLRwZKAKUY81_eSLd61VAz9OKRtvxpuTRDMdsqYy6J-LcsICs2=s600-no?authuser=0
+
+
 - name:           VJing
   type:           Art
   show:           false
@@ -440,7 +455,7 @@
     -
       image:    https://derrekchow.static.observableusercontent.com/files/91796c6e18858cd56bfda7c35bd4ea75618427be22d15e1de0cc7cc215d5f42861f7c0036e6b3270f8f9ec1b5726d4c9b9fffe9e38c206461b86f58f0a964d2e?Expires=1620864000000&Key-Pair-Id=APKAJCHFJLLLU4Y2WVSQ&Signature=dCCcb6zmKD28U9G1wev404zkNZv9CZZopFWxNsMtrImBb4O2wx6zlyBrVADuiqbovCcT7-mdLVKdWD7bESWoS~4rzKes6gbqTPj-TVFYZ2QhkmBWghlCy6DSIRqYdhOydkQTv8vWsnLRwWUXFk27aIu-e~h37AWAxNDb2~v2Puj0vy0tW46Rk555ufaUYUoNqDS5ipRf48fm3lO6rrzX34P80JxArAFzX1ZLcZlMH4Vbo~udov4r~bi02sfe1p61qR~eI3n-sRcjA8vhEPC5AtwzJTpDaxquI~wh1rH3MwbRPweWYpFZPgAeWVTNEeuc58tPlHcsOrGohNUpf6-L3g__
     -
-      image:    https://derrekchow.static.observableusercontent.com/files/4d5919da116bc07b1bd5d887d67d27d395689227f6ab11940c4a24d6147c543d0204b5c8df2e5d533d0feebd0dfcc776f12045082236341b2b05e5e7ae821d86?Expires=1620864000000&Key-Pair-Id=APKAJCHFJLLLU4Y2WVSQ&Signature=qmcJtbmvbkH-yKBBtYC78~L6A2eAILqFAVgD9tBAWy~AyzKpyaKcTbTweVKpj-M-~NjtMn4I1qUgjIzYgs4vgukNNVt2kNqacbduFKA-M-nO3QE~wnjw3Oj0bbOhDASmQrQYq803tXvPuWEimageuZkukE3IZWrCuCxKnW-xQJe5Mo9hqinQrReazthDuLZgfr63Yxq2UKSorbGfdAJ2apI1WMj8PJBe0Ae7IgyJBMQxCK92JjpWw~VJSMll7YBvFLCCbq-DYsAvv9DLwzPg8AQU6f1hSaJUmrtUQJyVGFZyVAssEkFglNHlANwySzJ6PTAjbsVGWPX9iB8Cvfthhoig__
+      image:    https://derrekchow.static.observableusercontent.com/files/4d5919da116bc07b1bd5d887d67d27d395689227f6ab11940c4a24d6147c543d0204b5c8df2e5d533d0feebd0dfcc776f12045082236341b2b05e5e7ae821d86?Expires=1643760000000&Key-Pair-Id=APKAJCHFJLLLU4Y2WVSQ&Signature=kC65YwokvuCW3Zg3J4-9kvyqx0w9s6lws4gPDjU9S6XdGFbj~2b3EA5OWjTaZMibKmiVxqHavmgZaXVW1XAy4PSItplBPPoE8FVcvFNm8WkwqVAiUhxdlPJgI~Wre5nwY~JJljqrRbkeEGZDQdhZOaGQtcySn-AmrBe2-WWcIynhBG-FOuhymds9PYdxesOCuyB6DAFAqKkPSSa9P1FLKPrgIDjLHbhlL~rMLPFVy-fdWuurmyLzuRBvRS~DYcuVCHWQsed6KsyIJ06paE3WW1j2HIzSBuG7zvQq1MiIrv7Gi1LmuoGQB9SyFx6cFDe~Xqmuhi1om9UmMyt-RntjvQ__
 
 - name:       Aether
   type:       Art

@@ -42,7 +42,7 @@
     -
       video: https://user-images.githubusercontent.com/17170744/151909373-528b6d6d-0733-49a8-b7cb-99da832cb9f2.mp4
       videoSettings: controls
-      label: When moving outwards through the maze, the rings block the user from moving forward except at their opening. To add more of a challenge, I had the haptic device pull the user to back a ring if they got too close to an adjacent inner ring barrier (pulled inwards, back to start).
+      label: When moving outwards through the maze, the rings block the user from moving forward except at their opening. To add more of a challenge, I had the Haply pull the user to back a ring if they got too close to an adjacent inner ring barrier (pulled inwards, back to start).
     - 
       image: https://user-images.githubusercontent.com/17170744/151908573-17a7d01c-dfbc-48af-ae90-30a9244c8998.png
       label: <br/>Stills of different generative mazes.

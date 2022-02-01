@@ -19,6 +19,8 @@ layout: main
             <r-cell span=3>
                 {% if block.image %}                    
                     <img src="{{ block.image }}" />
+                {% elsif block.iframe %}
+                    <iframe src="{{ block.iframe }}" frameborder="0" width="100%" height="300px" allow="autoplay; fullscreen" allowfullscreen></iframe>
                 {% elsif block.video %}
                     <video src="{{block.video}}" width="100%"
                     {% if block.videoSettings %}
