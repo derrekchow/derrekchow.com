@@ -33,3 +33,19 @@
       image:  https://user-images.githubusercontent.com/17170744/151068424-72d33d46-6f76-4752-9812-8f9e030bb24d.jpg
       label:  Extended
 
+
+- name:           Lab 2
+  year:           CanHap501, Winter 2022
+  about:          I created a circular generative maze made of concentric rings. Each ring has one opening in a random location to make each generated maze unique.<br/><br/>I first tinkered with the Hello Wall example to understand the code, particularly the use of force feedback. My approach to designing the maze was to use polar coordinates instead of Cartesian. I found this more useful because the Haply's task space is closer to a radial shape. I could design with the angle and distance from the origin which I found more reflective of the mechanics of the device. <br/><br/>Another key aspect to my approach was procedurally generating each ring with its force feedback and appearance contained in a Ring instance. A challenge I encountered was the example code's use of meters instead of pixels for units, which I am more used to.<h3><a href="https://git.uwaterloo.ca/d28chow/canhap501/-/blob/master/Hello_Wall.pde" target="_blank">Link to the code</a> (modified from the original Hello Wall example).</h3>
+  thumbnail:      https://user-images.githubusercontent.com/17170744/151908681-74974498-d396-46f5-a59f-cf3917998667.jpg
+  blocks:
+    -
+      video: https://user-images.githubusercontent.com/17170744/151909373-528b6d6d-0733-49a8-b7cb-99da832cb9f2.mp4
+      videoSettings: controls
+      label: When moving outwards through the maze, the rings block the user from moving forward except at their opening. To add more of a challenge, I had the haptic device pull the user to back a ring if they got too close to an adjacent inner ring barrier (pulled inwards, back to start).
+    - 
+      image: https://user-images.githubusercontent.com/17170744/151908573-17a7d01c-dfbc-48af-ae90-30a9244c8998.png
+      label: <br/>Stills of different generative mazes.
+    - image: https://user-images.githubusercontent.com/17170744/151908574-1e01d4ac-ed82-4b9b-ac33-ab66ce5c44ea.png
+    - image: https://user-images.githubusercontent.com/17170744/151908575-ce440987-77f1-414f-8946-27d7383a84d7.png
+
