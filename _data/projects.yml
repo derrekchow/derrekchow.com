@@ -21,7 +21,7 @@
   show:           new
   type:           Research
   thumbnail:      https://lh3.googleusercontent.com/ZKGQttTZl6KldW0QM8IhJyb9QHc1V6aB_NheIMfv-rNeSd6UDCTRFqIR9RxLba0wRjyB7obaLsvFC35HAloeQF99p1MbkwiIAbeocOYfSNKoo9ELqaATQBwpcBAAiE1WjpQnMuaDPEpKxi-k1ZNraPjzzG_EhpGrPBQQFUet_FEFTodaJhJgqoUu0T1B8thbXptXuU6Ok_fBDmdSsF3u6-2X24QHY0k83YDn1HEff1BLmKFFFVFT6ZzIfcWDSx0o-S06PjNZB9fM-1d_pGkYiIVPUdXhwfetH0iANgC8RHawJPSqjPEAzsXg4IgEnylWvTqgLLOZf6LvlhSG1aGNiG00bEVSB8GFyaS2IKHxaDhbdeOxt7eHexaWRxCt_GVVekMFaKYBXudVimF9_ukcjeWDygbX4wkcgkvCWfbjrd7_6PUJoRs9OqirxuMDYuJtOMwaVSCNqCk_BhrWVwWjyrREokYb859njrUdHOLKMdNbZTFO8g3hb-MnR0869YWz3jWHQD98E9m7sACCQYJrvJEzxsXbo22KHkUwaeIOcDiZulYO1k1D19mrthd2gGsMIWPmVN86vRfJf4EYkQNmFQEwrJqbtVT621t1e58E-Zjj0XxmYvFliRb710zN1o2VNmknRFailBka9G0OObMjFQU1pi0S3mQ15PULuk210RpYal84R07r5QAZ1CKIi7-F-9u-zn5o2nOoZ9ms62pmCks=s1382-no?authuser=0
-  year:           2021 – ongoing
+  year:           2021
   role:
     - software (prototyping & 3D modelling)
     - assembly
@@ -73,6 +73,12 @@
   about:          We propose a new AI assistance metaphor that is tightly integrated into the user’s workflow, and in particular a todo application. This metaphor leverages automation to help users seamlessly complete their tasks while preserving their usual workflow.   
 
 # Experiments
+
+- name:           Projectors
+  type:           Experiment
+  show:           false
+  year:           2021 – ongoing
+
 
 - name:           Body and Space
   type:           Experiments
@@ -453,9 +459,9 @@
   year:       2021
   blocks:
     -
-      image:    https://derrekchow.static.observableusercontent.com/files/91796c6e18858cd56bfda7c35bd4ea75618427be22d15e1de0cc7cc215d5f42861f7c0036e6b3270f8f9ec1b5726d4c9b9fffe9e38c206461b86f58f0a964d2e?Expires=1620864000000&Key-Pair-Id=APKAJCHFJLLLU4Y2WVSQ&Signature=dCCcb6zmKD28U9G1wev404zkNZv9CZZopFWxNsMtrImBb4O2wx6zlyBrVADuiqbovCcT7-mdLVKdWD7bESWoS~4rzKes6gbqTPj-TVFYZ2QhkmBWghlCy6DSIRqYdhOydkQTv8vWsnLRwWUXFk27aIu-e~h37AWAxNDb2~v2Puj0vy0tW46Rk555ufaUYUoNqDS5ipRf48fm3lO6rrzX34P80JxArAFzX1ZLcZlMH4Vbo~udov4r~bi02sfe1p61qR~eI3n-sRcjA8vhEPC5AtwzJTpDaxquI~wh1rH3MwbRPweWYpFZPgAeWVTNEeuc58tPlHcsOrGohNUpf6-L3g__
+      image:    https://derrekchow.static.observableusercontent.com/files/91796c6e18858cd56bfda7c35bd4ea75618427be22d15e1de0cc7cc215d5f42861f7c0036e6b3270f8f9ec1b5726d4c9b9fffe9e38c206461b86f58f0a964d2e?Expires=1644062400&Key-Pair-Id=APKAIQVKCV7GBKVBR2KA&Signature=D~1sm2Fzt3-BmZ6HqS9XJ7LMUId-xgyJRl8CTQFRPTleVVVjKdUe7JyKOVvlUdShU2FTUH6ZigOdyq5rDPz~0fbBXxHJwC8VNIrRtaFHuoPcKqIPUxEjY~VAAtcKfNNu8iqYWkIvqQTPSfOG6PrhruDrq0BOUzy5sySv-fdSFX0Rq0T9cz-AMhKL~81qZoORLFVDp-urChiRrZiEq2UdF1UtKt1eO7MNeC-0zpDsdVf5H0-xB3sYVFsv-tOo9l8z2nz17csN7~Gzv7NET~jnlMp2VZN3a54OLcS4HNMxWVDlqRADK4lxtALXzCi4E3GVZTYyOwiubOiWF0cPTlHxgQ__
     -
-      image:    https://derrekchow.static.observableusercontent.com/files/4d5919da116bc07b1bd5d887d67d27d395689227f6ab11940c4a24d6147c543d0204b5c8df2e5d533d0feebd0dfcc776f12045082236341b2b05e5e7ae821d86?Expires=1643760000000&Key-Pair-Id=APKAJCHFJLLLU4Y2WVSQ&Signature=kC65YwokvuCW3Zg3J4-9kvyqx0w9s6lws4gPDjU9S6XdGFbj~2b3EA5OWjTaZMibKmiVxqHavmgZaXVW1XAy4PSItplBPPoE8FVcvFNm8WkwqVAiUhxdlPJgI~Wre5nwY~JJljqrRbkeEGZDQdhZOaGQtcySn-AmrBe2-WWcIynhBG-FOuhymds9PYdxesOCuyB6DAFAqKkPSSa9P1FLKPrgIDjLHbhlL~rMLPFVy-fdWuurmyLzuRBvRS~DYcuVCHWQsed6KsyIJ06paE3WW1j2HIzSBuG7zvQq1MiIrv7Gi1LmuoGQB9SyFx6cFDe~Xqmuhi1om9UmMyt-RntjvQ__
+      image:    https://derrekchow.static.observableusercontent.com/files/4d5919da116bc07b1bd5d887d67d27d395689227f6ab11940c4a24d6147c543d0204b5c8df2e5d533d0feebd0dfcc776f12045082236341b2b05e5e7ae821d86?Expires=1644062400&Key-Pair-Id=APKAIQVKCV7GBKVBR2KA&Signature=SEjZVz0iGIAgAVwUI1poOnFi~JtYIvmsIuGSzmZ-Fw5WqXhjCdkyzAuiaVhNv~06RZ6KiIyGA~w4YoNbs4QBKTQWOb64GSAJgbJrAgV3mmaPCaHgIMxZ2jMImE6LyODZtDq7k4HC~mfTmTkHC4ii22PP5ksUzxsqrGsZlbFGd8PrGNqtQ16bCTg5xn4oCnp6heJU89DVH3ehAQfJzI5Zoze5Lo6wS~7YR3FeR36tWK0oFTukaVcujcZg9mpBIiDk2EHjlxUl5Ye72cx0F1o4ZVPOoU~9uRsiLuvZa-Nax0MJ6dlERJjF2r0f8lr7HB99cTQxA6dkqXtuhOH6ETltQg__
 
 - name:       Aether
   type:       Art
