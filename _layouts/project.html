@@ -16,6 +16,7 @@ layout: main
                 <p>{{page.about}}</p>
             </r-cell>
         {% for block in page.blocks %}
+            {% if block.break %} <hr/> {% endif %}
             <r-cell span=3>
                 {% if block.image %}                    
                     <img src="{{ block.image }}" />
