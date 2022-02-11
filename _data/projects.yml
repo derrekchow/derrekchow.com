@@ -217,7 +217,7 @@
     -
       video:        https://user-images.githubusercontent.com/17170744/147516905-8f331890-29c6-4e67-8315-92caae0bf029.mp4
       videoSettings: controls
-      label:        <h2 class="warning">⚠️ EPILEPSY WARNING ⚠️</h2>
+      label:        <h2 class="warning">⚠️ STROBE WARNING ⚠️</h2>
     -
       video:        https://user-images.githubusercontent.com/17170744/147516911-a1a30c1c-5028-4b60-af79-da3de77eb9f4.mp4
       videoSettings: controls
@@ -390,7 +390,7 @@
   thumbnail: https://lh3.googleusercontent.com/pw/AM-JKLX9kt33l2eo5EIdj9Hl714pL-8rcEucr2dH8R9OsMTKhwSpjD-u9bxc5hH5-W-7GGqHGtXKGCdSxT6jo20egUn8c6ZxDj89tIqLMNI5PfPyVaSs5B3hiyHhifSUaRPn71UApYFMzIPoN-KceQlclsXM=s600-no?authuser=0
   blocks:
     - iframe: https://player.vimeo.com/video/671794015?h=390570e9d2
-      label: <h2 class="warning">⚠️ EPILEPSY WARNING ⚠️</h2>
+      label: <h2 class="warning">⚠️ STROBE WARNING ⚠️</h2>
     - image: https://lh3.googleusercontent.com/pw/AM-JKLUq3rjhfrwK-kaCFlYFgnnqmb5pQGtYCb80qYxF3V2hvOKx7kg6cl2EvEbZiFzEaGda_g1ECyY17mVaJ6yb2d8gTzCL76-5KV-iUAgfVCRgMVe7caoCNS_fIsiYF4AqRi_UsSg1xyRyy5lz2LrAU1o0=s600-no?authuser=0
     - image: https://lh3.googleusercontent.com/pw/AM-JKLUdB-DpuFCSQ1lu_2yU7CdDGz3KjJCDOcb7b-pVkmiNRLPwsLc8cU5vYss4NQ_QfzxgrwawAnoDOgYi9Gc5N4sSsrGqxWrB8O93tfBHgsoCw3ScnOQRQ1PSt9fj-AF27pUU1NicOkMV5357S3UE0Qkp=s600-no?authuser=0
     - image: https://lh3.googleusercontent.com/pw/AM-JKLVcFfpJPJQPeMrK2KWGZx9WBls5XndWVezYjIRXA-tWioB7QJW9yQTTfsxa78H7YCZaI7Hl_zjz6yLHM1cY5D728z-1vZy1MZN2sGuLRwZKAKUY81_eSLd61VAz9OKRtvxpuTRDMdsqYy6J-LcsICs2=s600-no?authuser=0
