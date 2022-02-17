@@ -1,18 +1,20 @@
 # Research
 
 - name:           AirRacket
-  show:           new
   type:           Research
-  year:           2021 - 2022
+  year:           2021 – 2022
   thumbnail:      https://lh3.googleusercontent.com/2ORMYsU_oFhRpc92IuBUJYowjZIBk5LkpbzENvGIjRviUj-ZxHXheBiyKpVRvNc4c7Y1fTrtfK7h8oW5hWmqA3CAM79mhLRTbtJaYTSxdizLV3o2lNBco-fa2Pn6UFY6hlVFWZb0NCArE-RYkun830taBMM8OlgjV4yMDf6IC3Zm8Xgq6epxN95wgQn0rlRu3ryJAu06zj8mPVx6CZgup9clZhHcp1_SPmgQBPLJURk4JCp46aRq2OwH2tRd_BSAfNa6joUKY-E8WBKrbKmh-z8Wft5rQ0d82056jccjojyOXfVJfQ92d-EUcuZ_GfbkzBa12IMd7e9S95Ml69SGmmZ2FePYI0bdjgClWHma0nPKohD5DD7a-sNbGJQ8ZVPH9-tdVurjJm7G5a1Qz17Spx637GN4GC4afvRWmLlGadK_pxTVQc3x7Mz34MZOIF6BQ7q5EYPdSzF12OFlFWDiK_Xll-U1_hcxZF0ZL1VzoujqIfTQc-FYTYq_SfHMcdCEEqN7ocTcHMfnt464oFKa3oMnzpMbeEWXp04nbGF3YabtAyP8JnAvAZwayR_uyMkqzw5InOfjvE8av-ToKgnShzjKhbIUc8088diL0PZU4HjCuDxYIhj8qKEtIQLuU3MuMm2p4bPXI3EtaTAMG-7B80D0F4GUECPQ6FoPjLuinoj4oWb2GcUUgHwrAoqNJl3pheF_FqUREI21JTs8i0hoe1Y=s1366-no?authuser=0
   role:         
     - communication
     - research
   collab:
-    - the NTU HCI Lab
-  about:          AirRacket is an ungrounded force feedback device that re-creates the directional impact forces of racket sports by using compressed air propulsion jets.
+    - NTU HCI Lab
+    - Derrek Chow
+  about:  <br/><h3 style="padding-top:0">Publication</h3>Ching-Yi Tsai, I-Lun Tsai, Chao-Jung Lai, Derrek Chow, Lauren Wei, Lung-Pan Cheng, Mike Y. Chen. <a href="/assets/papers/airracket.pdf" target="_blank">AirRacket&#58; Perceptual Design of Ungrounded, Directional Force Feedback to Improve Virtual Racket Sports Experiences</a>. CHI 2022. 15 p.
   blocks:
-    - image:        https://lh3.googleusercontent.com/JyBDAvPOm91Nk7rM0vXtOn3BrMC7DBP2eEMeYM_wMrIDIW0tZfmsK4lTO-LkGPXwOyU1aXCuQZUK9I_tCH5HQkYDxaLLkeZDW2AIouZdj-bFJCXwFr5UD4q7lbe18mGheU5AAJxbiza8osyOw1OpdqaI9WBuVdB8xA-DNtTLEjrKzJz2xwQOsBkkpP4vHN1LDLBlh-Imt2O-PrNCajpyl0H3kx9wq_TqQJSrm5S6m_1BFrE6TAaR_l6utHTciS0LHJG1Mfn3HQf-GhdU5ul-G2GwiP34v1OP5D_e8tBgVS60Z_chgRzyuTvUZWrlrgGsANSqSu3ojmgBN4By43OC2xE_nNixuhsk-dGyq-1lqgB-od0qkAyWxK37Nu-x8500BfVj4mLwlp_EYO_cyqViz2HJs-BVeHO8hTwWGzvRspTEak2-Jub-BSQocoynkEkIGxjB-Vw1sEnU6Kd-c4Bt9HhT8aRM0zEL-RTk7qNMfZ4jIdsn_e5Zy8Fy-MSCCkMLMiU-3TeBjZxmu1Of7bAhtZV81MOTrRpwpHxXPefMQMu8q44Eo8SbFgWA4K0Lm7Mb55r6BO3ZkJ2R-iPt2kqaDmjKXXWd_2e7uiMWU-isy_ZcC3xB2Awa0pEbFsu0CWIExVRWCiSBcExeNha3lnhxZaokN17bgfiz9196qz5lIapP5FI321NJFAm5ykQgOHfoRJPrMbpbVj5SQDP7_fOde84=w2048-h1366-no?authuser=0
+    -
+      image:        https://lh3.googleusercontent.com/JyBDAvPOm91Nk7rM0vXtOn3BrMC7DBP2eEMeYM_wMrIDIW0tZfmsK4lTO-LkGPXwOyU1aXCuQZUK9I_tCH5HQkYDxaLLkeZDW2AIouZdj-bFJCXwFr5UD4q7lbe18mGheU5AAJxbiza8osyOw1OpdqaI9WBuVdB8xA-DNtTLEjrKzJz2xwQOsBkkpP4vHN1LDLBlh-Imt2O-PrNCajpyl0H3kx9wq_TqQJSrm5S6m_1BFrE6TAaR_l6utHTciS0LHJG1Mfn3HQf-GhdU5ul-G2GwiP34v1OP5D_e8tBgVS60Z_chgRzyuTvUZWrlrgGsANSqSu3ojmgBN4By43OC2xE_nNixuhsk-dGyq-1lqgB-od0qkAyWxK37Nu-x8500BfVj4mLwlp_EYO_cyqViz2HJs-BVeHO8hTwWGzvRspTEak2-Jub-BSQocoynkEkIGxjB-Vw1sEnU6Kd-c4Bt9HhT8aRM0zEL-RTk7qNMfZ4jIdsn_e5Zy8Fy-MSCCkMLMiU-3TeBjZxmu1Of7bAhtZV81MOTrRpwpHxXPefMQMu8q44Eo8SbFgWA4K0Lm7Mb55r6BO3ZkJ2R-iPt2kqaDmjKXXWd_2e7uiMWU-isy_ZcC3xB2Awa0pEbFsu0CWIExVRWCiSBcExeNha3lnhxZaokN17bgfiz9196qz5lIapP5FI321NJFAm5ykQgOHfoRJPrMbpbVj5SQDP7_fOde84=w2048-h1366-no?authuser=0
+      label:  We present AirRacket, perceptual modeling and design of ungrounded, directional force feedback for virtual racket sports. Using compressed air propulsion jets to provide directional impact forces, we iteratively designed for three popular sports that span a wide range of force magnitudes&#58; ping-pong, badminton, and tennis.<br/><br/>To address the limited force magnitude of ungrounded force feedback technologies, we conducted a perception study which discovered the novel illusion that users perceive larger impact force magnitudes with longer impact duration, by an average factor of 2.57x.<br/><br/>Through a series of formative, perceptual, and user experience studies with a combined total of 72 unique participants, we explored several perceptual designs using force magnitude scaling and duration scaling methods to expand the dynamic range of perceived force magnitude. Our user experience evaluation showed that perceptual designs can significantly improve realism and preference vs. physics-based designs for ungrounded force feedback systems.
     - image:        https://lh3.googleusercontent.com/lny513Nd0nQp5pSw8O1jpOGFtwzQWEyCW41hAKa-6uXqW6MlWMIVGUcoylJmZ3-5TuvKWkvHQmjzF79Y7Tiu4jkWjCx8N4m_GSLBxT91blrWCAv8nmtlM_CUX4wW_2TCyPvwZ3xO2H250Urebo98Oww5cwDtYMKHB92H2i99hj-2QYjZOrFu0VzkW-x27aiO3woa1OARCoY4OsFj5MmJH4f3fpmNPghYKDOxEZ5h4BhKtLXMcvsMIIyMuzuuRU59UA17ZgFEtfnwW78BpQJfSqjkM2D6-RkXs4BhEzSEH3ZODX4YvF5Nlxm629g2ys97o7HWAnvS7XmxSP2Y7akzQZnLWRXyyqX3KxM_G2swhmyKor6zL8zv8rjlX2TeTln13Y3PKC7mpa8Ie1UrBwTYJdLjV0VHLAysWebNgeJ7DlEKslmZYqcbcrRaqZNWQEsl3JlCq6deO3BMnBqFYtpiwqHISDocUb8_d3hZfmH3kPhXhOnFqmCkC8IO7J1KGlCGwrlChE0YQIEoB0loQryrMSUxwVozoJNdi5A5rWFXA00f2OqZNaFCjYUgmq-pCBVYFRYzeR8bpPjxiVp6hOVCV4Tsp-JmFD_F9RfWdT3XMejeDd5uDyqEqrIxViOxB6j69hX-PIV5G9XzH0EZKNTp7LBIl2YP-F6f8OkHLlvph3Mc_oyGIfpFSjcWVWSay76CxguRbWIjAVSmFkOzO3f96iQ=w2040-h1360-no?authuser=0
     - image:        https://lh3.googleusercontent.com/wuB4d-HbwaLV-QPJf3uI7trA_qiEs4tJZQrrDOrUfeGjccMUk4sO-BCnkGLa9kiZkFgIr_bUEgQvzhsLSHCMn2kJGo-GCABmnPWWLTOfv4QlNFT0xpW0FIbzV8LlI_XaJ8ufkZ6XNK0p09tk6VKXt0mTBOEmQmUU-14DGR0oW13CHtN1Vm6VYaG5CavVZP48Ut-Glsf9oOVApawm1pbWzA_oAp3-B6IdA8Vp2S3eATj6hlbNC3rdF_XaqRNAzpu_0z403HFS0yZ9-8_7MMOg2YqBNGRHaJeFx6pQFlgyEn6bWNmS-HgQLt5cxd4T2WfamsaZV36Mh1MFFa3aLpjXLEVdE-FyebnFazuLNVqUgev5Laut0tV-o3PqIYh6Co0EPGm82kx1b1QH0G0ugA1Aijt1vaFA1z1mC9u7AsiuuDBx4fT56ngU6xk6p1cvq0Bd6lrjpNFudW403BPRb5QSNTGEJRogiySGYCDMhZoQgAbTYnxg3HZREMH-emOnQhaW9Af9kA4auY5kFvGT6CbmBbMfqILCmH8YWjLhqb4y4y7m6FC2EFpLXsIlK3JFobbLXY5wnI1Mk4V3cpQe7jtXSYqkz1njEro5NArOu2k-kAXE9xkA4k5QiIZS_jh3iEyPlWKfi3yNJM-X6CHjquTctyn9xmakoCLAFbJZwRg2UdMP7Rip7hgiThanceSkPghn10AzPKHWmQ9c968ndh1oNgU=w2048-h1366-no?authuser=0
     - image:        https://lh3.googleusercontent.com/Dq_-VZQSlpn6Jj1eEQk-9YRuLlyt3ZuoedmgSISqnytxf4D81Xg_cfFpD_22nNMd6kyuxJG8Q8JBcjeEbahSAa0ubtCBI1uYS9nbzkT0r6Twj_RxS3H-AzN9TM_bcq-otdSKAa-tLBAjMGUhD4gTSSvRYCCIszzGe1QiAnzhXspI_GnjsGKcnQEx6sXyjQrlUUM0SNde0Vuxqbm78yYWCCDVhnxdmPTsbSQROCaNJjWEsuSL_iYmzyItTP536il61AwecjzNmh1NxDxLjGl9PCZLJO4SM1LeZAPCcv95W0ehcIRf3_2C11cXC_lthW0YfxljrCT9QjFxPmtC6DOXHLp12Jl8QzLul6mLexi8sS4v9-jU3BcVgei6lJfYp_qvsR8MAV5lCr7hP-ksA3-fYwgPjeNG4Bfm50ezWUo9nZC68079HpFXx2s3zAm_Nl2twsCs6bArinGIfAzGiv106eqy0YSv0ArKisDxHe87hbUJJFezWn5A0i9FO1lzl0UAjK1f5yazLeajGIPOd2KtPuj3VsKHIXmPGo_4R2esB2xpwGCil-GH20YmK39MCkgJPq2PX-GS5Me6ChoZU9axPkSfHEWp2VnpvNrjGI8vn7mhjKL9WSronyHMbt6f-7MCvSFlxO61L7trS3n0ItLDgGvzrtWIdTS7zmvFH7-pT4awcqXtEao9B5BTE5gRpCs5pQAytSEYIXiNlchZoYUaYwo=w2048-h1366-no?authuser=0
@@ -26,7 +28,7 @@
     - software (prototyping & 3D modelling)
     - assembly
   collab:
-    - the NTU HCI Lab
+    - NTU HCI Lab
   about:
       Chandelier explores the idea of a user-surrounding tangible interface. # 168 touch-sensitive, color changing, and independantly actuating end effectors are suspended in 6 rings around the user, allowing for shape-changing dispaly and new forms of interaction.
   blocks:   
@@ -48,6 +50,7 @@
     - fabrication
     - hardware
   collab:
+    - Derrek Chow
     - Gracie Xia
     - Jasmine Ou
   about:          We are currently exploring the design space of a wireless spherical input device to utilize expressive interactions.
@@ -68,8 +71,9 @@
     - user interviews
     - research
   collab:
-    - Daniel Vogel
+    - Derrek Chow
     - Quentin Roy
+    - Daniel Vogel
   about:          We propose a new AI assistance metaphor that is tightly integrated into the user’s workflow, and in particular a todo application. This metaphor leverages automation to help users seamlessly complete their tasks while preserving their usual workflow.   
 
 # Experiments
@@ -116,16 +120,17 @@
   type:           Experiments
   thumbnail:      https://lh3.googleusercontent.com/umwjRPLbbRqqSWkuVelTUuZzQZ3eRgKa3XZ9x26cnQb_e2CbMVIypwDu9lguyrrMWQapfu4kQDLDA7wlvn20O-82b3QD3DFoIw9Z50q-WLZnNueTk_4GZDBafeW1IHrKxKz03bjbtBcGZtiGiYFfk--bNbYMo3Ae4X4X2L6QImdZWIfYCAy5UsSQLC0cHi-5uTtlNI3S22T_7EnJJaHZCT40SP3-ADzlUGMBsqJpM0bDJPRvw4VvaM_6tl-oUVdE7O1SE2-5FlemazGFaWi7WBwqYmWbdxBg1c6fN5bNjIknfQ3titazW0nqamHlvksgYp6hoyATM_QYZbBBHWBYC5dT0V80cjmT9g0VgSvQGLpFs9240n3E1XPv7LfCcFtUoEi_DzXJmkK1wn0JqleikP4jtq4AMxe6hPZ1kgHQL_Ej0jhY4h_0f22pFBJiC5sCkpDDpGDfTYN_3R_dkaAxpgiZ263yebWa7D4kSR1lGZR1MOCTf2lZk52r2eOioN6N3dg1wUaCo3un95qOewJffrTsb_LxmeiAoa1GZsaouK03VrT8pGnEo9ZJyWz307OJlf3ioQqP9-dSorUior7ZzPV_LpIVcOQDOu_yxarzKieg8cWyFT-EXwojJSGtz8eWgx4bJ4fWMYgB2ghMqLRXHHe6G78GPB4dKk2C5bScNqyOi19LYCRbfZ9DauFyso354QcQBgSMqOx8cEKmAbeEBvo=s1382-no?authuser=0
   year:           2018
-  about:          Assitive device that speaks out loud text on a page when pointed to in real time. Winner of the <i>Best Hardware Hack</i>, <i>Best 3D Printing</i>, and <i>3rd Place Overall</i> awards at MasseyHacks III.<br/><br/><a href="https://devpost.com/software/point-to-speech-rvsa0y" target="_blank">more info</a>
+  about:          Assistive device that speaks out loud text on a page when pointed to in real time. Winner of the <i>Best Hardware Hack</i>, <i>Best 3D Printing</i>, and <i>3rd Place Overall</i> awards at MasseyHacks III.<br/><br/><a href="https://devpost.com/software/point-to-speech-rvsa0y" target="_blank">more info</a>
   role:         
     - fabrication
     - design
     - software
     - hardware
   collab:
+    - Derrek Chow
     - Ibrahim Irfan
-    - Jayson Yan
     - Justin Goping
+    - Jayson Yan
   blocks:
     - image:        https://lh3.googleusercontent.com/v8sCfJXkX7oXY_5gD6vgOAWMiHKDfSIXZxMlsy8hcx2u_qhnZmxAKqtv76oEpzLX65YUQmhLRNcC8fZcgR7g7CcDKtyqRbhp8aJX3Uu0m6XndkZ_pfrsGKpj6QhbqG1FLd6gxcNi1Eq3qfKuqVGhJ4JjcHCN1pVVaCKDrc_FgX-Ud6dZ5GdnP5io6ohUBzcImGA-WxLg7Z4n9v3qaML27akzj0CtoBSqyRdgotzD0DQzMKmFvo7xTEn4fWWQKyo5vl5lGZVMhIqh8tZo_5gQ6QGEBpc5dN7kRQuCb73o5xgjsrmD55ellPf-whF8OKkQFwNxR8XPz3bMYMjxIdlur6Cw8IW8Blz12wOPW2fjgJUiJx5cBuewWu1JoQ0YKkKUpnwgUXxDPHB5y5hUhfpZ1kD8TzPOFEAVri9ru3xLkSjA8_wdRtcMLZbLs4bnY6ly2_7hU3LuRdK3hXICDwpoMlcde26ooBljJBMEy08DFuWNWGshDvBaPyggvalroryjFvuapkdr5QbApFpSUIz54huO_6i5JLY0gJLSB-AI7tdC2ysSGkWBB6WL-1sv5KjK7t2Y2DhIMY65POuEL_o-4Fs0qw947TxvmWq0I9LIzvJ95wwi9pFGkcsTgs7B94yDK8-TE6l2PCHPbeHBGOZa4JUxdAPF1Uq5g4-dV_njp7z2tubwA1_TF6m7GpReqwokT-GBkUPDh3t9OmltWHpAjZI=w2104-h1578-no?authuser=0
 
@@ -137,9 +142,10 @@
     - fabrication
     - hardware
   collab:
-    - Max Steiner
-    - Nikhil Gupta
     - Raphael Koh
+    - Max Steiner
+    - Derrek Chow
+    - Nikhil Gupta
   about:          AI version of the game Hungry Hungry Hippos. Winner of the <i>Organizer's Choice</i> award at HackWestern IV.<br/><br/><a href="https://devpost.com/software/hungr-ai" target="_blank">more info</a>
   blocks:         
     - image:        https://lh3.googleusercontent.com/erhxzzBAKz_dPv0JB1hrJKPpcU868MQgzeZxRevr3T5l2vp__qKOeBInVR-qXUIlxCj46wl1Mo6ghl1MaDU0mV_dqAfo1GyxMVmXl8i4F9q4EOxbzdh6I3fsE0lGhrj3LAULJqbe7vMdJPyZRZA63C4GbEKW9XPJ4csShSKe6BG6xOdl9skVXM09Hl2ok79JGvd6vg-B7j-WDT5aIWMXF5ctf07T3uEoBYtgUehaFVrlXXCfZeqJo6u_4g9u1JBWbok7z6IZgPm_8Zqnxj81vmJ-WaRsDs5d9w58qyil8vFHnbyvQs2wTHBCTG6-hJ1bPMbZFsnsxSQcrlQ2pnxkX86-2jv5DQ_eW2K64fIa0PCdcTZe80ZnxE9dg9IDaHU8B4B6iwfquF1DVYu4Ocdubf1HRcTx2XmwBRV3aXjU64ZAZqVwsxvmUOS3Gx5p0UD_nqPCk6YjCLHUEqdTszi8Kp2pdeSOCX2MR_xoN5pfFOsuQyR0lhaQOW3CL00fFlwZT2k--J6zWt2W9LIfQKs4u91lfcF_nz0Tw55YsbPeSq7krIWRLWoaUdnekyGG3Dy9R8eGh0zE4H0V5KkT9z2iyhYbuAhvCIf7tSvzd2ulPqxFL3KBM3KRK2Rbw3PrO7fsyahwr9Cp5KUs4QeR2hKVve45_JEwYaxeux6oaIKJuiB0-GKGvuaeSglMBu-3IoR4YNttyRWgq7kqZa9LXLzkL7w=w600-h347-no?authuser=0
@@ -155,7 +161,8 @@
     - hardware
   collab:
     - Edwin Zhang
-    - Ibrahim Irfan    
+    - Ibrahim Irfan
+    - Derrek Chow    
   about:          Spring-loaded mini cannon, tracks and fires candy at target using facial recognition.<br/><br/><a href="https://github.com/edwinzhng/automatic-cannon" target="_blank">more info</a>
   blocks:
     - image:        https://user-images.githubusercontent.com/21136804/33001215-69c3d17a-cd7a-11e7-8b34-972e37abeb4b.gif
@@ -177,6 +184,7 @@
     - fabrication
     - hardware
   collab:
+    - Derrek Chow
     - Ibrahim Irfan
   about:          Fridge that creates recipes based on the food placed inside it. Received an <i>Honorable Mention</i> award at Hack the North 2017.<br/><br/><a href="https://devpost.com/software/hack-the-fridge" target="_blank">more info</a>
   blocks:
@@ -256,6 +264,7 @@
   collab:
     - RNDR
     - RAP Technologies
+    - Derrek Chow
   role:
     - design (light prototyping & information architecture)
     - documentation
@@ -279,11 +288,12 @@
     - design
     - user research
   collab:
-    - Ayush Kapur (project manager)
-    - Bob Wei (developer)
-    - Dmytro Shynkevych (developer)
-    - Edwin Zhang (developer)
-    - Max Dai (developer)
+    - Ayush Kapur
+    - Edwin Zhang
+    - Dmytro Shynkevych
+    - Derrek Chow
+    - Max Dai
+    - Bob Wei
   about:    UW Flow is a popular platform for University of Waterloo students to share course and professor reviews. It was created in 2012 by a group of software engineering students. While the site remained a useful resource for students, it began to suffer over time from lack of maintenance. In 2019, we decided to revamp UW Flow with an entirely new design and codebase.<br/><br/><a href="https://uwflow.com/" target="_blank">uwflow.com</a>
   blocks:
     - image:        https://lh3.googleusercontent.com/pw/ACtC-3cutd_BOxPEn1LHrRWME0H924-mLi_DKFl66octIL7ci_DL_DbI-tNKLVWE4oz6LygJ_b5WjSdwLYpoq8T4Kbx1yoCr3BDT3RWJNX_zfYD8z4JZhKMEP7KNTpUe_OyZRsTPS3rRxmuqtSVwU4JTR7ME=w726-h457-no?authuser=0
@@ -330,9 +340,10 @@
     - dev team lead
     - web design & developement
   collab:
-    - Grace Ma (design)
-    - Minji Ko (design)
-    - Nikhil Gupta (dev)
+    - Derrek Chow
+    - Minji Ko
+    - Grace Ma
+    - Nikhil Gupta
   about:          Website for Impact Labs, an organization that provides greater access to opportunities at the intersection of technology and social good. <br/><br/><a href="https://www.impactlabs.io/" target="_blank">impactlabs.io</a>
   blocks:
     - image:        https://lh3.googleusercontent.com/fVAi4y6i2A1TRZBwwD_hgeLDQercy__D1DGaKyJ2AGfvWfTLMmrBlpBp7KaTliHi_duFMtX8SJMGsnbWU9v7wF0FAm3BFCbiG3PFDHoWD1oXiydbNIAA1YNU3EDKCgkS5PEF0B4eyvGLNUX0v6rSydiFRRPOGLk4lHmNGBz3AvGTt6cPgmAWJBEWD1T5Spgwh2SWx3vHlZ7_Uvib53_OcQrxKIk4EggjJODyCDbByk03z4an9IZmX872AFD46Bkm64B4aaoSGeLwDs5RoRXWC-FwerMlEGkqt0lYdoEKtSmIJaHWQW8gk4EbVGGm0q6mgeuaA-NYlFSojPjdaAt8b1YKvXBGzoSY6ztLE_SNKhjYEH9NEe4dqB1o6HEezSqjk6ixLHCiYB9LbwFqvusy07O4_TTKAC88EH8LzwVi8C95xyINt8vLF-HJwvVhCSnVFNhz7H3lzUiGVbfAAKIl2FqYvd3ytq602tw6XtxQdc8AQHChd49XvNg50pAFTxs3tAzbJ_eVExl0NvAuWqv2-F53We08X0-u5BMRr4gR3lUFfr0qGgUTUX70fwNhJoHrx6TijSRyWoDF5piHwAo20jAMZbAUfk09GEYYoDBdWqnGFLMdUq--V3BQB5_D01NVTEfMC5zBHgrRn3pl8NC3rWX16mlkHbc4Ccnm2Si52AFBhATnNUfbqmvMKDLVvy-2av0C_WfSI2ufOiCGe973Rzk=w546-h1464-no?authuser=0
@@ -346,7 +357,8 @@
     - head of web and UX
     - web design & developement
   collab:
-    - Queenie Wu (design)
+    - Derrek Chow
+    - Queenie Wu
   about:          Website for the 2018 TEDxUW conference.<br/><br/><a class="external" href="http://2018.tedxuw.com/" target="_blank">2018.tedxuw.com</a>
   blocks:
     - image:        https://lh3.googleusercontent.com/WS_Cqi3OjITqJ-cOQlvpWG5rq_2Keau705ZlNR8NTZGpoRardIZyZfyLt0ROtqQoUvOmgPzukrEfdr8HoTqoZt-T2Mklu82-g4fDcYs468u78uiZd2EDmUKDajZgL0PTxDehFHAN2lNvIkdVm4oWJMFqEMnQ11YnafW07Dnff_gcTOLCGmtsijsGmGwh9gr0S9SAEy701qlx9tyaXNgksoXFHpv0imV6_P8gK-4F0CGP8vNi3o-ksnsqvwIMybBaHKJ-0W-cWDXJHU_fJRH6iwn00qVtWa4eVDU9C6wlFe3bvYt5RlKwHvoHZYndzZ86pntw8oly0cdgNq9kxC-eJCweRaAG__Oo57ZPKYgWKcGgF4Xz--fy2EPm84CFOUKhQSWqPzHsDil0hLhZ4UU5O0remGX20QxKYDMAErddfWKpZ1vndSWaw9dE8z9bH8U_hZzC4dBRmy9vuicpMKnrx5QR7SWp3Pxq5OQDU25mX8xVk4gVK3khkK3-wi0ETLwaGoyJiOpzDo1DwXQX5n4R-qoSpkHsIkVbHLkmRalB3CeNRu8obyHbmdjHp1RdcTWYXkT0DFUxqIy_IGN-24sOrsFs52xI061a1oALKPo0e6bgCgUnoi8cueKRXchTE06MDA8izVybtkYHPL2jToqIDMaNm6GAhr5bo7FxLGSNhdbZICxYT4pgLEzT9ICIVs0eq0vrNubmHwemFfJpa_N10vc=w535-h1464-no?authuser=0
@@ -481,6 +493,7 @@
     - 3D model textures
   collab:
     - Gracie Xia
+    - Derrek Chow
   blocks:
     - image:    https://lh3.googleusercontent.com/59el7gl16DuJyjz4tufZxnsj8EHqo4qMVo3KGTCYZRTyvGfpmeBm8XNaINPr3AVw3WhKkHDOitjkGJvz1mcAeBHg1Xkmb8404fIjm5_PNPNz2EUq76-fb9iTRCo73rR01nmU_zGFbcPIWlab2geNKBzzGRZl5yb8XDPK1uJa5px4pCeCmTK8yhZ0Pe5ETnJv8rs8wX4gOPIAyVdJovaOmn2IAQbuZX7P0VrWPtzUDiMMOTezXgUXUYZFkU0fqfYAP5SaurZoMaoLFzHKbDRBhMo7kk3Z6FY7It_mAutiBNFvbY_KifC1qA0Fk-Br7ijcy4ZCr30qQIu9GjLJxC86A3CBNN9UfHbDZ5zcRW7KAC_tJA4ISo7QpkbV6F0DBKPlXwaIGiD2qoueoZwUppEy9kMY7ZzB-K-a4044pgiLAZvIt-_wYy4g7dc9hWxH51yRvAdCwB5xKVAy5c9TP7Pjp1_RFW7swbTZYBP4uaL5soatXE5LQrn5FV_vROPzp9VfhqfxvNPqTKXaN7NR5RbfYKRl0ZpCAZUyr2yCquv7foO6SUCy-9-vWSxdrfqpqIREvd5X-NTCrCShdi8ZIrDonLAflufo8Xb9bSIUqbEOAn9rPcqJHvdUPHMYljgFAMlaaG5eZFmX9t7apkRtPxNbL7Qb0mydW6-sUIx27AX-QH7_1NdT5RgWICaDSWHY8CYGRdnwHcciIYJSNjWQgwKYbyQ=w304-h303-no?authuser=0
   about:      Visit the <a href="https://graciexia8.github.io/Virtual_Pottery/sancaiWare/sancaiWare.html" target="_blank">full interactive versions</a>.

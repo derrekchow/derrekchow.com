@@ -35,7 +35,7 @@ html, body
     background-color: $black
     color: $font-color
     font-weight: light
-    line-height: 1.3
+    line-height: 1.2
 
 nav .active
     text-indent: -0.78rem
@@ -61,20 +61,18 @@ nav
     img
         width: 100%
     hr
-        opacity: 0.5
-        height: 1px
+        opacity: 0.3
         margin-bottom: calc(var(--lineHeight) - var(--hrThickness)) !important
 
 header, footer
     // margin-top: calc(20vh - 20px)
     // margin-bottom: $unit*3
-    text-align: left
     h1
         // font-size: calc(var(--h1-size)*1.2)
         margin-bottom: 3px
     
 .subtitle
-    opacity: 0.5
+    opacity: 0.6
     font-weight: normal
     // line-height: 1.5
 
@@ -92,15 +90,16 @@ section
     color: red
     white-space: nowrap
 
+a
+    white-space: normal
+
 #quotes, #interviews
-    a
-        white-space: normal
     p, hr
         max-width: 480px
     hr
         margin-top: $unit*4
         margin-bottom: $unit*4
-        opacity: 0.2
+        opacity: 0.4
 
 blockquote
     opacity: 0.6

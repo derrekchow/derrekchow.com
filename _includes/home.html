@@ -1,6 +1,6 @@
-<header class="narrow">
-    <h1>Derrek Chow<span class=""> is a researcher and creative technologist</span>
-    </h1>
+<header>
+    <br/>
+    <h1>Derrek Chow is a researcher and creative technologist</h1>
     <h3 class="subtitle">He is currently conducting research in Human-Computer Interaction at the University of Waterloo</h3>
 </header>
 
@@ -8,34 +8,41 @@
 {% include grid.html section="Design" columns=3 %}
 {% include grid.html section="Experiments" columns=4 %}
 {% include grid.html section="Art" columns=3 %}
-<section id="about"  >
-    <h1>About</h1>
-    <hr/>
-    <p class="narrow">
-        Derrek Chow is a researcher and creative technologist from Toronto. His work explores Human-Computer Interaction and the intersections of art, design, and technology to create new, more empowering and humane ways to interact with computers.
-        <br/><br/>
-        He is currently pursuing a degree in software engineering at the University of Waterloo. Previously, he was a designer at <a href="https://rndr.studio/" target="_blank">RNDR</a> and researcher at the <a href="http://hci.cs.uwaterloo.ca/" target="_blank">Human-Computer Interaction Lab</a> and the <a href="https://ntuhci.org/" target="_blank">NTU HCI Lab</a>.
-        <!-- In the past, he was a software engineering intern at startups in various industries. -->
-        <br/><br/><br/>
-        Contact: <a href="mailto:hi@derrekchow.com">hi@derrekchow.com</a>
-        <br/><br/>
+<section id="about">
+    <h1>About</h1><hr />
+    <r-grid columns=2 columns-s=1>
+        <r-cell span=1>
+            <p>
+                Derrek Chow is a researcher and creative technologist from Toronto. His work explores Human-Computer Interaction and the intersections of art, design, and technology to create new, more empowering and humane ways to interact with computers.
+                <br /><br />
+                He is currently pursuing a degree in software engineering at the University of Waterloo. Previously, he was a designer at <a href="https://rndr.studio/" target="_blank">RNDR</a> and a researcher at the <a href="http://hci.cs.uwaterloo.ca/" target="_blank">Human-Computer Interaction Lab</a> and the <a href="https://ntuhci.org/" target="_blank">NTU HCI Lab</a>.
+            </p>
+        </r-cell>
+        <r-cell span=1>
+            <p>
+                <b>Contact</b><br/><a href="mailto:site@derrekchow.com">hi@derrekchow.com</a>
+                <br /><br />
 
-        Links: <a href="https://bookshelf.website/derrekchow" target="_blank">bookshelf</a>, <a href="/quotes">quotes</a>, <a href="https://photos.app.goo.gl/L8ZR91Tnuy3XkSZz9" target="_blank">process</a>, <a href="https://open.spotify.com/user/227xetjpmjboa4xazsscy3sai?si=1T3GVS-QQnyISxScgHVGtA" target="_blank">playlists</a>, <a href="/interviews">interviews</a>
-        <br/><br/>
+                <b>Links</b><br/><a href="https://bookshelf.website/derrekchow" target="_blank">bookshelf</a>, <a href="/quotes">quotes</a>, <a href="https://photos.app.goo.gl/L8ZR91Tnuy3XkSZz9" target="_blank">process</a>, <a href="https://open.spotify.com/user/227xetjpmjboa4xazsscy3sai?si=1T3GVS-QQnyISxScgHVGtA" target="_blank">playlists</a>, <a href="/interviews">interviews</a>
+                <br /><br />
 
-        Past sites: <a href="https://2020.derrekchow.com/" target="_blank">2020</a>, <a href="https://2019.derrekchow.com/" target="_blank">2019</a>, <a href="https://2018.derrekchow.com/" target="_blank">2018</a>
-    </p>
+                <b>Past sites</b><br/><a href="https://2020.derrekchow.com/" target="_blank">2020</a>, <a href="https://2019.derrekchow.com/" target="_blank">2019</a>, <a href="https://2018.derrekchow.com" target="_blank">2018</a>
+            </p>
+        </r-cell>
+    </r-grid>
 </section>
 
 <section>
-    <!-- <hr/> -->
     <footer>
         <h1>"The purpose of any tool ought to be to help human beings become more human."</h1>
-        <h3 class="subtitle">Howard Rheingold on Seymour Papert, <a href="http://www.rheingold.com/texts/tft/" target="_blank"><i>Tools for Thought</i></a></h3>
+        <h3 class="subtitle">Howard Rheingold on Seymour Papert, <a href="http://www.rheingold.com/texts/tft/"
+                target="_blank"><i>Tools for Thought</i></a></h3>
     </footer>
 </section>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"></script>
 
 <script>
     function makeActive(hash) {
@@ -44,16 +51,16 @@
         $(hash + "-nav").addClass('active');
     }
 
-    $(document).ready(function() {
+    $(document).ready(function () {
         makeActive(location.hash);
 
         var window_height = $(window).height();
-        $(window).resize(function() {
+        $(window).resize(function () {
             window_height = $(window).height();
         });
-        $(window).scroll(function() {
-            var scrollMiddle = $(window).scrollTop() + window_height/2;
-            $('section').each(function(e) {
+        $(window).scroll(function () {
+            var scrollMiddle = $(window).scrollTop() + window_height / 2;
+            $('section').each(function (e) {
                 elTop = $(this).offset().top;
                 elBtm = elTop + $(this).height();
                 if (elTop < scrollMiddle && elBtm > scrollMiddle - 300) {
@@ -62,20 +69,18 @@
             });
         });
 
-        $("a.internal").click(function(event) {
+        $("a.internal").click(function (event) {
             event.preventDefault();
             var hash = event.target.hash;
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
             }, {
                 duration: 500,
-                complete: function() {
+                complete: function () {
                     location.hash = hash;
                 }
             });
         });
     });
-    
+
 </script>
-
-

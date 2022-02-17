@@ -8,12 +8,8 @@ layout: compress
     </head>
     <body>
         <main>
-            <!-- {% include slides.html %} -->
-            <!-- {% if page.home %}
-                
-            {% endif %} -->
-            <r-grid columns=8>
-                <r-cell span=7 style="max-width:880px;" id="{% if page.id %}{{page.id}}{% endif %}">
+            <r-grid columns=9>
+                <r-cell span=8 style="max-width:880px; margin: auto" id="{% if page.id %}{{page.id}}{% endif %}">
                     {{ content }}
                     <section  >
                         <p class="subtitle">© Derrek Chow 2022</p>

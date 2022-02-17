@@ -2,15 +2,16 @@
 <nav>
 {% assign items = "research, design, experiments, art, about" | split: ", " %}
 
-<a href="/" onClick="if (history.length > 1) { event.preventDefault(); history.back(); }"><b>Derrek Chow</b></a>
-<br/>
-{% for item in items %}
-    {% assign url = item %}
-    <a class="internal" id="{{url}}-nav" href="/#{{url}}">{{item | capitalize}}</a>
-{% endfor %}
-<!-- <a class="internal" id="about-nav" href="/#about">About</a> -->
+    <a href="/" onClick="if (history.length > 1) { event.preventDefault(); history.back(); }"><b>Derrek Chow</b></a>
+    <br/>
+    {% for item in items %}
+        {% assign url = item %}
+        <a class="internal" id="{{url}}-nav" href="/#{{url}}">{{item | capitalize}}</a>
+    {% endfor %}
+    <!-- <a class="internal" id="about-nav" href="/#about">About</a> -->
 
-{% unless items contains page.id %}
-<hr/>
-<a class="internal"><b>{{ page.title }}</b></a>
-{% endunless %}
+    {% unless items contains page.id %}
+        <hr/>
+        <a class="internal"><b>{{ page.title }}</b></a>
+    {% endunless %}
+</nav>

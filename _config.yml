@@ -37,5 +37,9 @@ page_gen:
   name_expr: "record['name'].gsub(' ', '-').downcase"
   title: name
 
+collections:
+  papers:
+    output: true
+
 sass:
   style: compressed

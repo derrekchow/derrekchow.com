@@ -10,13 +10,19 @@ layout: main
             </r-cell>
             <r-cell span=2>
                 <h1>{{ page.title }}</h1>
-                <label style="opacity:0.5">{{ page.year }}</label><br/><br/>
-                {% if page.role %} <label>Role: <i>{{ page.role | join: ", " }}</i></label><br/><br/> {% endif %}
-                {% if page.collab %} <label>In collaboration with {{ page.collab | join: ", " }}.</label><br/><br/> {% endif %}
-                <p>{{page.about}}</p>
+                <div class="subtitle">
+                    <label>{{ page.year }}</label><br/><br/>
+                    {% if page.collab %}
+                        <label>{{ page.collab | join: ", " }}</label>
+                    {% else %}  
+                        <label>Derrek Chow</label>
+                    {% endif %}<br/><br/>
+                </div>
+                <!-- {% if page.role %} <label><b>Role:</b> {{ page.role | join: ", " }}</label><br/><br/> {% endif %} -->
+                {{page.about}}
             </r-cell>
         {% for block in page.blocks %}
-            {% if block.break %} <hr/> {% endif %}
+            {% if block.hr %} <hr/> {% endif %}
             <r-cell span=3>
                 {% if block.image %}                    
                     <img src="{{ block.image }}" />
@@ -33,7 +39,7 @@ layout: main
                 {% endif %}
             </r-cell>
             <r-cell span=2>
-                <label>{{ block.label }}</label>
+                {{ block.label }}
             </r-cell>
         {% endfor %}
         </r-grid>
