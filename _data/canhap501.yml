@@ -1,0 +1,156 @@
+- name:           Lab 1
+  year:           CanHap501, Winter 2022
+  about:          My goal with Lab 1 was to use a variety of unconventional input forces that differed from the resulting actuation force across all the sketches. I also tried to explore different materials (magnet, rubber band, silicone, rubber glove) that had interesting actuation properties.
+  blocks:
+    -
+      video:  https://user-images.githubusercontent.com/17170744/151068412-0c1e2e23-ddca-447e-b8c7-fe10d6ab5f93.mp4
+      videoSettings: controls
+      label:  <h2>Sketch 1</h2><b>1mm</b><br/><br/>I used a pen that bounces against an elastic which moves a pair of tweezers. The pen is attached at its tip to a magnet and I flick the pen to actuate the tweezers. I found it interesting how the strong singular force of a flick was converted to small multiple vibrations of the tweezers.
+      hr: true
+    - 
+      video:  https://user-images.githubusercontent.com/17170744/151068414-7459009b-c018-4646-a68f-9b3265107c0a.mp4
+      videoSettings: controls
+      label:  A closer view of the tweezers actuating.
+    - image:  https://user-images.githubusercontent.com/17170744/151068415-3b7b3f9e-178e-4d94-a525-41603958ecd2.jpg
+    -
+      video:  https://user-images.githubusercontent.com/17170744/151068416-f9f36961-0192-4abe-a436-d9e0ccaf56e4.mp4
+      videoSettings: controls
+      label:  <h2>Sketch 2</h2><b>10mm</b></br><br/>I used a medical glove that pushes a cardboard flap when the glove is inflated. I used a soldering iron holder to precisely restrict the shape of the glove to actuate the flap.
+      hr: true
+    - 
+      image:  https://user-images.githubusercontent.com/17170744/151068417-2cf6e508-61a0-4ab9-a05b-7ce16f6f6fc4.jpg
+      label:  Retracted
+    - 
+      image:  https://user-images.githubusercontent.com/17170744/151068418-29718559-b648-4124-bad8-ecf941122e21.jpg
+      label:  Extended
+
+    -
+      video:  https://user-images.githubusercontent.com/17170744/151068421-8bc7cfa0-036a-450f-9c8b-c8fd69772855.mp4
+      videoSettings: controls
+      label:  <h2>Sketch 3</h2><b>100mm</b></br><br/>I used a sticky silicone disc folded in half to push against a rod. The disc's actuation is delayed because of its stickiness. I found this to be an interesting way to delay a force and would want to experiment more with these type of materials that can preserve the "memory" of an action.
+      hr: true
+    - 
+      image:  https://user-images.githubusercontent.com/17170744/151068423-8acd4347-0046-4159-b450-2484d506d8d9.jpg
+      label:  Retracted
+    -
+      image:  https://user-images.githubusercontent.com/17170744/151068424-72d33d46-6f76-4752-9812-8f9e030bb24d.jpg
+      label:  Extended
+
+
+- name:           Lab 2
+  year:           CanHap501, Winter 2022
+  about:          I created a circular generative maze made of concentric rings. Each ring has one opening in a random location to make each generated maze unique.<br/><br/>I first tinkered with the Hello Wall example to understand the code, particularly the use of force feedback. My approach to designing the maze was to use polar coordinates instead of Cartesian. I found this more useful because the Haply's task space is closer to a radial shape. I could design with the angle and distance from the origin which I found more reflective of the mechanics of the device. <br/><br/>Another key aspect to my approach was procedurally generating each ring with its force feedback and appearance contained in a Ring instance. A challenge I encountered was the example code's use of meters instead of pixels for units, which I am more used to.<h3><a href="https://git.uwaterloo.ca/d28chow/canhap501/-/blob/master/lab_2" target="_blank">Link to the code</a> (modified from the original Hello Wall example).</h3>
+  thumbnail:      https://user-images.githubusercontent.com/17170744/151908681-74974498-d396-46f5-a59f-cf3917998667.jpg
+  blocks:
+    -
+      video: https://user-images.githubusercontent.com/17170744/151909373-528b6d6d-0733-49a8-b7cb-99da832cb9f2.mp4
+      videoSettings: controls
+      label: When moving outwards through the maze, the rings block the user from moving forward except at their opening. To add more of a challenge, I had the Haply pull the user to back a ring if they got too close to an adjacent inner ring barrier (pulled inwards, back to start).
+    - 
+      image: https://user-images.githubusercontent.com/17170744/151908573-17a7d01c-dfbc-48af-ae90-30a9244c8998.png
+      label: <br/>Stills of different generative mazes.
+    - image: https://user-images.githubusercontent.com/17170744/151908574-1e01d4ac-ed82-4b9b-ac33-ab66ce5c44ea.png
+    - image: https://user-images.githubusercontent.com/17170744/151908575-ce440987-77f1-414f-8946-27d7383a84d7.png
+
+
+- name:           Lab 3
+  type:           lab
+  year:           CanHap501, Winter 2022
+  about:          For Lab 3, I used a node based programming language and environment called TouchDesigner which is used to manipulate real-time multimedia content. Transformations are performed by nodes (rectangular blocks) where the output and/or properties of one node can become the input to another node, nodes are chained together to create a pipeline (reminiscent of functional programming).<br/><br/>I chose to use TouchDesigner because I've found it to be useful for real-time signal processing and has unique features which I thought could be interesting to explore with the Haply. I modified my code from Lab 2 to have Processing send and receive OSC messages to and from a TouchDesigner program, where I do force calculations. Processing sends the device's position and listens for torque data from TouchDesigner.<br/><br/>I started by attempting to build a PID controller in TouchDesigner, which has nodes to calculate derivatives and integrals. I was able to create a controller but unable to reach a stable state after spending a lot of time tweaking the gain values. I speculate there was too much delay when calculate the derivative/integral which create lag in the PID feedback loop between TouchDesigner, Processing, and the Haply. However, the process was very insightful and I felt I understood PID control better from tweaking gain values through TouchDesigners responsive and visual interface.<br/><br/>My original and final words were&#x3a; <ol><li><b>Bird</b> (dynamic object) -> <b>Fly</b> (dynamic object)</li><li><b>String</b> (dynamic object) -> <b>Grate</b> (region)</li><li><b>Handwriting</b> (region)</li></ol> <h3><a href="https://git.uwaterloo.ca/d28chow/canhap501/-/blob/master/lab_3" target="_blank">Link to the code</a> (requires <a href="https://derivative.ca/download" target="_blank">TouchDesigner</a> to open .toe file).</h3> The let image is the TouchDesigner "code" which contains all three movements (switched through keyboard). Below are the movements on the Haply and their corresponding TouchDesigner nodes.
+  thumbnail:      https://user-images.githubusercontent.com/17170744/153616630-1d2d7fbd-2be9-4a20-b2d7-156ea368323a.png
+  blocks:
+    -
+      video: https://user-images.githubusercontent.com/17170744/153619844-d0eceb68-bb27-471d-8539-5229917bcd65.mp4
+      videoSettings: controls
+      label: <h2>Movement 1&#x3a; Fly</h2>Original word&#x3a; <b>Bird</b> -> final word&#x3a; <b>Fly</b><br/><br/> I wanted to convey the movement of a bird in flight because I think it is an interesting combination of locally random but overall focused and smooth movement. I imagined the bird as the end effector. To create the movement I varied the x and y force using sin and cos functions with varying magnitude, frequency, and speed that would change over time, which I combined these with noise functions. I found the final movement to be more jittery and erratic than I expected which is how my word became <b>Fly</b>, which was more characteristic of the final result.<br/><br/>I designed the movement with the user holding onto the end effector in mind. I realize when the user is not holding the effector, the Haply maxes out to the edge of the task space quickly. This helped me understand the usefulness of having PID control.
+      hr: true
+    - image: https://user-images.githubusercontent.com/17170744/153616635-57cf6685-f958-4014-bd70-3ca2363b2a1e.png
+    -
+      video: https://user-images.githubusercontent.com/17170744/153619847-28c9e1fa-ee45-492c-9db1-dae378568786.mp4
+      videoSettings: controls
+      label: <h2>Movement 2&#x3a; Grate</h2>Original word&#x3a; <b>String</b> -> final word&#x3a; <b>Grate</b><br/><br/>I originally wanted to simulate the feeling of plucking a string because I am creating a musical instrument for my group project. I experimented with different wave types (square, sine, triangle) functions and used the end effector's x position to shift their phase. This gave the feeling of "strumming" as the user moved the end effector horizontally. <br/><br/>I found using the square wave create an interesting texture and sound that reminded me of running a hard object across a metal grate. I found mapping movement as a function of the x position to be useful in shaping the texture of the force.
+      hr: true
+    - image: https://user-images.githubusercontent.com/17170744/153616633-3aa54be2-3234-4e5e-9651-9d0da76efb70.png
+      
+    -
+      video: https://user-images.githubusercontent.com/17170744/153619834-13cd5057-5499-46f0-8fa0-e8c0af85b3a3.mp4
+      videoSettings: controls
+      label: <h2>Movement 3&#x3a; Handwriting</h2>Original and final word&#x3a; <b>Handwriting</b><br/><br/>I wanted to recreate the feeling of handwriting. I held attached a pen to the end effector to simulate a writing grip, which added realism. I used a sum of sine functions to produce vertical force as a function of the x position, so when the user moved the Haply horizontally, the pen would move up and down. I found adding sine waves of different frequencies helped create a feeling of scribble but with varied rhythm of cursive writing. Similar to Movement 1, without pressing on the pen, the Haply quickly maxed to the edge of the task space.
+      hr: true
+    - image: https://user-images.githubusercontent.com/17170744/153616637-c5941fe1-a259-43f8-878d-4b3a663e442d.png
+      
+    -
+      hr: true
+      image: https://user-images.githubusercontent.com/17170744/153616631-471d7b5f-c039-49ec-b951-ec2e91913b55.png
+      label: Overall I was most satisfied with the <b>Handwriting</b> movement but found the <b>Grate</b> movement to be the most unexpected. Some lessons I learned were the usefulness of periodic shaping functions in producing dynamic and varied textures, which I noticed a similarity to sound synthesis. I found combining these functions and having them be a function of the Haply's position produced more complex and dynamic movements.<br/><br/>With Movements 1 and 3, I noticed by holding onto the end effector, I was acting as a PID controller, stabilizing the system, and part of the feedback loop. This reminds me of the field of Cybernetics where biological and mechanical systems share common processes through feedback loops. I think it is interesting to think of the user as a component of the loop. Although I was disappointed I could not implement PID control in TouchDesigner, it helped me understand feedback control more, which will definitely help me for Lab 4 and my group project. 
+
+
+- name:           Lab 4
+  year:           CanHap501, Winter 2022
+  about:          This lab was challenging but insightful, I was able learn a lot about PID control and how it affects the Haply. I found this lab difficult because the Haply would often lose control and become unstable as I was testing it. I was using the Haply in an office environment around other people and the noise was quite loud. <h3><a href="https://git.uwaterloo.ca/d28chow/canhap501/-/blob/master/lab_4" target="_blank">Link to the code</a></h3>
+  thumbnail:      https://user-images.githubusercontent.com/17170744/154556946-13dc53a2-b280-407d-b2c2-2a6e68a1ebc5.jpg
+  blocks:
+    -
+      video: https://user-images.githubusercontent.com/17170744/154556968-17abab43-d64b-44a5-a6ac-715e5be57acd.mp4
+      videoSettings: controls
+      hr: true
+      label: <h2>1. P Control</h2>This control felt similar to the haptic feedback from the previous 2 labs. As I increased the P amount, it felt like the end effector was becoming more strongly draw towards the target, very much like a magnet. Changing the target parameter caused the effector to quickly jump to the new target with almost too much force. I noticed when the effector got close to the target it would often perpetually overshooting and jitter around the target which as shown in the left video. I was unable to keep the system stable without holding the effector.
+    - 
+      video: https://user-images.githubusercontent.com/17170744/154556965-24c977be-b3ff-408e-9d99-b62da75e5f37.mp4
+      videoSettings: controls
+      hr: true
+      label: <h2>2. PD Control</h2>This control felt similar to the previous. I found reducing the exponential filter helped somewhat with the system's stability. The end effector still felt jittery when it got closer to the target (I still needed to hold effector), but I felt it was a slight improvement from before.
+    - 
+      video: https://user-images.githubusercontent.com/17170744/154556964-f65780da-d15d-488f-a5a4-10fbe61ac2ca.mp4
+      videoSettings: controls
+      hr: true
+      label: <h2>3. PID Control</h2>This control made the most noticeable difference and the system felt stable. I was having problems with the force drifting from the target, but when I reset the integrator, the effector snapped right to the target. I needed to do this a few times after changing different positions. The system felt more "snappy" and the movements more linear than elastic. With the P and PD control, the system would move too fast near the target, but the PID control seemed to resolve this problem.
+    - 
+      video: https://user-images.githubusercontent.com/17170744/154556962-31425d27-54e8-499f-ab5d-13e5dea3eff1.mp4
+      videoSettings: controls
+      hr: true
+      label: <h2>4. Path Tracking</h2>I chose the target to move horizontally back and forth according to a sine function because I was curious how straight of a path the effector could maintain. I noticed the effector would sometimes vibrate when I moved it against a straight wall. The result still had some jitter but was able to operate without me holding the effector, which I considered the most stable system so far. I feel that friction on the surface task space could cause this jitter, which I've noticed throughout the labs. The surface has some friction which I think influences of the behaviour of the system to being less stable.
+    -
+      video: https://user-images.githubusercontent.com/17170744/154556961-8ae53411-a109-48b2-b598-bb013d509804.mp4
+      videoSettings: controls
+      label: In this tuning, I only had to hold the effector with the tip of my finger very lightly. After experimenting with different target speeds, I found any faster speed in the left video makes the system unstable. I found holding the effector adds additional friction and while it can stabilize the system, it makes the local effector movement more jittery.
+    - 
+      video: https://user-images.githubusercontent.com/17170744/154556957-12c287db-79c8-4b8e-ac0b-5bcebf6062b9.mp4
+      videoSettings: controls
+      hr: true
+      label: <h2>5. Delays</h2>Increasing the controller delay (left video) created an interesting movement that reminded me of Lab 3 when I was trying to simulate the feeling of a bird in flight. The movement felt "stretchy", like a loose spring trying to find a target that was moving too fast for it to catch up. I think the delay could be used as a design parameter for organic or smooth movements. I confirmed this as as I varied the delay. A large delay could create the "stretchy" movement then returning to the normal delay would prevent the system from becoming unstable.
+    -
+      video: https://user-images.githubusercontent.com/17170744/154556959-46ba1898-a009-43e6-afae-f16cb4c2d32b.mp4
+      videoSettings: controls
+      label:  I also found lowering the delay (left video) from its default value made the system feel even more "snappy" but seemed to amplify jitter. I think there might be an ideal delay that is not zero, perhaps due to how the derivative and integrals are calculate with respect to the limitations of the program/computer, such as with floating point precision.
+    -
+      hr: true
+      label: Overall, I found this PID program very useful for getting a feel of the components in a PID controller and their effect on the system. I need more practice and refinement to be able to incorporate these learnings into my group project, but I definitely see how PID can be useful. I want to revisit my use of TouchDesigner from Lab 3 to try again to implement a PID controller in the program, because I now realize how important and sensitive the correct parameter tunings are for the stability of the system.
+
+- name:           Iteration 1
+  year:           CanHap501, Winter 2022
+  collab:         Derrek Chow, Team Hapstrument
+  about:          My objective with Iteration 1 was to connect both Haplys into one program and use their positions to control pitch (left Haply) and volume (right Haply). I was to make this data audible through Pure Data, a music synthesis software. I was responsible for connecting and producing sound from the Haplys while the other teammates focused on haptic rendering. My motivation was to fully connect the components and setup a foundation our team could build off of for the next iterations.<br/><br/>My approach was to clean up the Processing code (based on Hello Wall) for our purposes, setup both Haplys, send position data to Pure Data (audio synthesis software), map this data to sound, then experiment with different interactions/mappings of movement to sound properties (pitch and volume). The image on the left is the "code" in Pure Data receiving OSC data from Processing. Processing reads position data from both Haplys, send it as OSC messages to Pure Data, which then generates sounds from it.<br/><br/><h3><a href="https://git.uwaterloo.ca/d28chow/canhap501/-/blob/master/iteration_1" target="_blank">Link to the code</a></h3>
+  thumbnail: https://user-images.githubusercontent.com/17170744/156651953-114f4aff-2f50-4ab8-a6ac-4c19b576f6a6.png
+  blocks:
+    -
+      video: https://user-images.githubusercontent.com/17170744/156651926-7a19af24-2a7f-4a74-8a82-3eee5e8d3ded.mp4
+      videoSettings: controls
+      hr: true
+      label: The video on the left shows both Haplys being used to play "music". The left Haply controls pitch on the y axis and the right Haply controls volume on the x axis and also vibrato on the y axis.
+    -
+      video: https://user-images.githubusercontent.com/17170744/156651920-b86ccae0-b8f9-4e4f-804a-85518efb94e1.mp4
+      videoSettings: controls
+      label: <h2>Right Haply&#58; Volume</h2>The video on the left demonstrates how the user controls volume and vibrato with the right Haply. Volume is mapped to the x axis of the end effector. The volume increases towards the right, with no volume leftwards of the x midpoint. Shaking the end effector along the y axis modulates the pitch, doing so rapidly produces a vibrato.
+    -
+      video: https://user-images.githubusercontent.com/17170744/156651924-2bf792a9-0480-4509-a960-3655c987d9b6.mp4
+      videoSettings: controls
+      label: <h2>Left Haply&#58; Pitch + Vibrato</h2> The video on the left demonstrates how the user controls pitch with the left Haply. The frequency of the tone is mapped to the y axis of the end effector. The pitch increases upwards (closer to the y origin).
+    - 
+      video: https://user-images.githubusercontent.com/17170744/156651919-ace505d7-fcca-4b09-9541-802b3a9e0150.mp4
+      videoSettings: controls
+      hr: true
+      label: <h2>Reflection</h2>From this iteration, I learned the importance of being able to test and physically use the Haply for this project. As a team, we discussed the desired interactions and behavior of the system and had an idea of what it would feel like and how the user should interact with it. But by actually setting up both Haplys and using them, I noticed a lot more. For example, I found it was difficult and uncomfortable to have both Haplys map to the same axises. Changing volume and pitch with exclusively the x or y axis was much harder than having primarily y for pitch and x for volume (different axises), for example.<br/><br/>To reflect on the haptic experience itself, I found the mapping of the sound properties to the end effector movements needed refinement. To make the volume loud then soft (and vice versa) took used too much movement, I should make the movement more subtle to be able to distinguish individual notes instead of a continuous varying tone. The pitch was difficult to move to exact whole notes, I think the addition of force feedback in our next iteration will help by "pulling" or "snapping" the effector to notes. I found the use of vibrato with the right hand was satisfying, it added a more natural and responsive feel to the Haply and the resulting sound. On a technical note, I encountered some delay issues from Processing to Pure Data which I believe can be resolved in the code.
+    -
+      hr: true
+      label: <h2>Next Iteration</h2>The goal for my next iteration is to incorporate the haptic rendering developed my teammates into this system. I want to then refine the interactions based on feedback and observations from this current iteration. I am interested in the effect adding force feedback will have on the playing experience and sounds produced.

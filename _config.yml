@@ -31,7 +31,7 @@ page_gen:
   name_expr: "record['name'].gsub(' ', '-').downcase"
   title: name
   filter_condition: "record['type'] == 'Art'"
-- data: labs
+- data: canhap501
   template: project
   dir: '/canhap501'
   name_expr: "record['name'].gsub(' ', '-').downcase"
