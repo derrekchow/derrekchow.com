@@ -64,6 +64,9 @@
 <loc>http://localhost:4000/archive.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/face-sketches.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/out-of-bounds.html</loc>
 </url>
 <url>

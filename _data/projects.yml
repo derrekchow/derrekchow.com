@@ -394,18 +394,45 @@
 
 # Art
 
+- name: Face Sketches
+  year: Mar 2022
+  type: Art
+  about: 
+  thumbnail: https://lh3.googleusercontent.com/pw/AM-JKLVLl11acXbp937EfI3-XAHNvd0GTju6xyQNX6CCmFuM167_ipgzCYbhQKvb6PwXY46mBaQtGo1qhOWKBNWEY6Ndosr5FZqONsja74KFPd6SCxs5TeyLgd6_l2I6p95KjRBtKdLdljhLc5HkO9b8QPPFdg=s600-no?authuser=0
+  blocks:
+    - iframe: https://player.vimeo.com/video/685298334?h=51f525419a
+    -
+      video: https://user-images.githubusercontent.com/17170744/157132866-211f7d3f-474a-48e2-8266-b5530ff2628d.mp4
+      videoSettings: controls
+    - image: https://lh3.googleusercontent.com/pw/AM-JKLVqEcC_V98WwPUQdAGXz7xDAGt5mt9ehm1CBKiXqHdLnPHUU9RghmXfcpZGjrEJwHc0ZFx30Wh2xlrFBzwPOUV5CtMdu13RsZ3_Yp_y9M7Ne9U9BEdpJsA9ieaM0kfIxFNyNGwDhOK-GtxLPrGCVp_4zA=w1520-h1013-no?authuser=0
+    - image: https://lh3.googleusercontent.com/pw/AM-JKLWqAFtCzmXl2u1jSf83K6zpELWz9frF6CNWmQ9RDuJhj5nLqNR3_7-7Vzz35qor7s-UOiadlksQDdJkksphAFZHynlqVgzcqv2FQ4cNtK8UbeGaMI2yH_L6rGMfwZvEWykCRDk79lzi63Kj4Zu2_UZHlg=w1520-h1013-no?authuser=0
+    - image: https://lh3.googleusercontent.com/pw/AM-JKLXpp4lUCFL4ikl4UHCM_Zf3AqxZ-muTz0jlnNkZ9JlvLJDEtkqY5vwR2UmVfOrGe1UTQFAl2kYWN8gSXSzMgcNbTYxJolLkjWGnpTFr6LoE9_idSTIeVPfvxsgRGevThY4m3QwImELvrm2QVjGn9rKLvQ=w1520-h1013-no?authuser=0
+    - image: https://lh3.googleusercontent.com/pw/AM-JKLX3dKmcd6FrfrXcH0Y3A4IdLXE2osDNx6sZYBT_g1rPiR2Y6XPqmFse_ezZBU0O60A8fqCucoIayAqOa2qDAGYNqme0UV6cQlyBuXoiViNTQaYujyKfm0SxRHldtUmPT1skDZ44o9Wp3MYFI42Vu9HMNw=w1689-h1013-no?authuser=0
+    - image: https://lh3.googleusercontent.com/pw/AM-JKLVJKZYxxA4XbjUD5L4SMbfa8dSV6sQGDHIiXnfizu5ruklb8sQRdU5-KU6LEAnUlVNJeq9uiBLdJMUeHpzIeRivTH-p9XIbxvWyHuDQyQwlgqjZfC3qekKoy2I5a2QSnHs-NWoehX6C1Qan-jeAPZM9LA=w1520-h1013-no?authuser=0
+    - image: https://lh3.googleusercontent.com/pw/AM-JKLUc9MYr0D8QCb7sTStB4HFkQ9qSX2phYscMOsAw4YaEN3VHfkqbaNOaa_FgM-jjTzFIohVUHDQbAbJIZUce-09-FRq-oxgfO7ioNbwKjx9Xx2Qi48xpAr50O5ZJvMi6FUm7-kCIKPVuNE_Ur6op4F3wBw=w1520-h1013-no?authuser=0
+    -
+      image:  https://lh3.googleusercontent.com/pw/AM-JKLWXJmNd1I5C-323rZXfmDU_Bl-PDiS6YkiEcg1NkC50-uEn-TWMB6dMvWC395wXFVZy9hHrsORfcYaJ7_f-zcAdoqk0mOJW9OTN36IrrABkNN9J-6J4gfqbivyXOPlVSSvFwTHMn885OhfHeJQaeAfMtQ=w1017-h1013-no?authuser=0
+      label: Behind the scenes
+    - image: https://lh3.googleusercontent.com/pw/AM-JKLVKYgFpEKvXNVxJNTIM4AZVjGkpQh8zwumtIJi-98OIsXuxvRAoQUVDxj3EfK82CvGKYGkh76diShVoGjXV2mYMaMbmcGwUr7PT_0IOtnIx_dtTq7bvt2O520yMraG_oZwX8DETuiapO2JNEj_F7qFWfw=w1017-h1013-no?authuser=0
+
+
 # Out of Bounds is an audiovisual composition of black and white generative pieces. Each piece represents a different aspect of technological sensory overload, consisting of hundreds of simple line/shape forms or “atoms” with erratic and rapid movements. As the composition progresses, the switching of pieces and behaviour of atoms becomes more intense. The quantity, sound, and speed of atoms collectively creates a visual and audio cacophony.
 - name: Out of Bounds
-  year: 2022
+  year: Feb 2022
   type: Art
-  about: “We live in an unending rainfall of images. The most powerful media transform the world into images and multiply it by means of the phantasmagoric play of mirrors. These are images stripped of the inner inevitability that ought to mark every image as form and as meaning, as a claim on the attention and as a source of possible meanings. Much of this cloud of visual images fades at once, like the dreams that leave no trace in the memory, but what does not fade is a feeling of alienation and discomfort.”<blockquote>— Italo Calvino, Six Memos for the Next Millennium, 1988</blockquote>
+  about: “We live in an unending rainfall of images. The most powerful media transform the world into images and multiply it by means of the phantasmagoric play of mirrors. These are images stripped of the inner inevitability that ought to mark every image as form and as meaning, as a claim on the attention and as a source of possible meanings. Much of this cloud of visual images fades at once, like the dreams that leave no trace in the memory, but what does not fade is a feeling of alienation and discomfort.”<br/><br/><blockquote>— Italo Calvino, Six Memos for the Next Millennium, 1988</blockquote>
   thumbnail: https://lh3.googleusercontent.com/pw/AM-JKLX9kt33l2eo5EIdj9Hl714pL-8rcEucr2dH8R9OsMTKhwSpjD-u9bxc5hH5-W-7GGqHGtXKGCdSxT6jo20egUn8c6ZxDj89tIqLMNI5PfPyVaSs5B3hiyHhifSUaRPn71UApYFMzIPoN-KceQlclsXM=s600-no?authuser=0
   blocks:
     - iframe: https://player.vimeo.com/video/671794015?h=390570e9d2
       label: <h2 class="warning">⚠️ STROBE WARNING ⚠️</h2>
+    - video: https://user-images.githubusercontent.com/17170744/157128723-a5e8614e-0ebb-458e-82c3-fa3e0f8cee7c.mp4
     - image: https://lh3.googleusercontent.com/pw/AM-JKLUq3rjhfrwK-kaCFlYFgnnqmb5pQGtYCb80qYxF3V2hvOKx7kg6cl2EvEbZiFzEaGda_g1ECyY17mVaJ6yb2d8gTzCL76-5KV-iUAgfVCRgMVe7caoCNS_fIsiYF4AqRi_UsSg1xyRyy5lz2LrAU1o0=s600-no?authuser=0
     - image: https://lh3.googleusercontent.com/pw/AM-JKLUdB-DpuFCSQ1lu_2yU7CdDGz3KjJCDOcb7b-pVkmiNRLPwsLc8cU5vYss4NQ_QfzxgrwawAnoDOgYi9Gc5N4sSsrGqxWrB8O93tfBHgsoCw3ScnOQRQ1PSt9fj-AF27pUU1NicOkMV5357S3UE0Qkp=s600-no?authuser=0
     - image: https://lh3.googleusercontent.com/pw/AM-JKLVcFfpJPJQPeMrK2KWGZx9WBls5XndWVezYjIRXA-tWioB7QJW9yQTTfsxa78H7YCZaI7Hl_zjz6yLHM1cY5D728z-1vZy1MZN2sGuLRwZKAKUY81_eSLd61VAz9OKRtvxpuTRDMdsqYy6J-LcsICs2=s600-no?authuser=0
+    -
+      video: https://user-images.githubusercontent.com/17170744/157128725-840c9005-638c-4bc3-b314-1d11aae2e59b.mp4
+      videoSettings: controls
+
 
 
 - name:           VJing
