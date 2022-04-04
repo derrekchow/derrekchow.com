@@ -10,7 +10,7 @@
   collab:
     - NTU HCI Lab
     - Derrek Chow
-  about:  <br/><h3 style="padding-top:0">Publication</h3>Ching-Yi Tsai, I-Lun Tsai, Chao-Jung Lai, Derrek Chow, Lauren Wei, Lung-Pan Cheng, Mike Y. Chen. <a href="/assets/papers/airracket.pdf" target="_blank">AirRacket&#58; Perceptual Design of Ungrounded, Directional Force Feedback to Improve Virtual Racket Sports Experiences</a>. CHI 2022. 15 p.
+  about:  <br/><h3 style="padding-top:0">Publication</h3>Ching-Yi Tsai, I-Lun Tsai, Chao-Jung Lai, Derrek Chow, Lauren Wei, Lung-Pan Cheng, Mike Y. Chen. <a href="/papers/airracket.pdf" target="_blank">AirRacket&#58; Perceptual Design of Ungrounded, Directional Force Feedback to Improve Virtual Racket Sports Experiences</a>. CHI 2022. 15 p.
   blocks:
     -
       image:        https://lh3.googleusercontent.com/JyBDAvPOm91Nk7rM0vXtOn3BrMC7DBP2eEMeYM_wMrIDIW0tZfmsK4lTO-LkGPXwOyU1aXCuQZUK9I_tCH5HQkYDxaLLkeZDW2AIouZdj-bFJCXwFr5UD4q7lbe18mGheU5AAJxbiza8osyOw1OpdqaI9WBuVdB8xA-DNtTLEjrKzJz2xwQOsBkkpP4vHN1LDLBlh-Imt2O-PrNCajpyl0H3kx9wq_TqQJSrm5S6m_1BFrE6TAaR_l6utHTciS0LHJG1Mfn3HQf-GhdU5ul-G2GwiP34v1OP5D_e8tBgVS60Z_chgRzyuTvUZWrlrgGsANSqSu3ojmgBN4By43OC2xE_nNixuhsk-dGyq-1lqgB-od0qkAyWxK37Nu-x8500BfVj4mLwlp_EYO_cyqViz2HJs-BVeHO8hTwWGzvRspTEak2-Jub-BSQocoynkEkIGxjB-Vw1sEnU6Kd-c4Bt9HhT8aRM0zEL-RTk7qNMfZ4jIdsn_e5Zy8Fy-MSCCkMLMiU-3TeBjZxmu1Of7bAhtZV81MOTrRpwpHxXPefMQMu8q44Eo8SbFgWA4K0Lm7Mb55r6BO3ZkJ2R-iPt2kqaDmjKXXWd_2e7uiMWU-isy_ZcC3xB2Awa0pEbFsu0CWIExVRWCiSBcExeNha3lnhxZaokN17bgfiz9196qz5lIapP5FI321NJFAm5ykQgOHfoRJPrMbpbVj5SQDP7_fOde84=w2048-h1366-no?authuser=0
@@ -394,8 +394,29 @@
 
 # Art
 
+- name: Light on Clear Plastic Bag
+  year: April 2022
+  type: Art
+  about: 
+  thumbnail: https://lh3.googleusercontent.com/pw/AM-JKLV5Wr8yqbq9VMYJeHzdmibhE1_TGHTEmyP7RFUnbbv7LranfgKlaUk9EPX4vy5X9IskW0woSte12T5mDEQqPC6fvTkwV-t0tp79qrWw7BMe5LJUXiDE2Y461DVT3BNQU3eYZcdKS_YRclc3fUH_Kt4g_g=s1379-no?authuser=0
+  blocks:
+    - iframe: https://player.vimeo.com/video/695558070
+    -
+      video: https://user-images.githubusercontent.com/17170744/161469799-d03f0b26-ae6c-429a-811d-046f5803443a.mp4
+      videoSettings: controls
+    - image: https://lh3.googleusercontent.com/pw/AM-JKLUFxekpnqDcUtF0WCzAHDNfh0MFJS6stLa_YeXoY6Y5Ob7KDGtBfKATQnntRlQ6WXQNZPNpdit8ejVoNE4dRgYGQ8wxQMh3MNP1HnsTuQ6-zTSZHBhuwipR80ami38EpIo2Mpogc0YKl-nZtISp0_Rrmw=w2456-h1379-no?authuser=0
+    - image: https://lh3.googleusercontent.com/pw/AM-JKLWuRrJBuWJKLcn3ub_YVAaq-kKWxVYL6kD97ylkcs1hp6XYmKeot2kBuhLiq_Engw0azYsjS_Aq0Cznr9uOjA4hhRszTM8KO_33KijakhGGh_jVBCGcoxmY5wCGSMDtXLybJG8AkaaqA9CNxFytNHmYYg=w2456-h1379-no?authuser=0
+    - image: https://lh3.googleusercontent.com/pw/AM-JKLUvWaMI7T0Lt3qaRzOQA7xP5zL2KYrmgq5M1ys4LAd-72EoOTXysCLWx7_Eu8YXtmmaa43uWP7xY_RRryXNd6_jzkLJrb_ZjXbJV5eXAb3XLxQjJUDmmmRd4iENiVtTdbaH44-HPRL43qs0tisTYXX3uw=w2456-h1379-no?authuser=0
+    - image: https://lh3.googleusercontent.com/pw/AM-JKLWKkVzCr0wTrDBwqyaKdsqO19ODi1OnKg3HcXJWcWUZJNbnfNHPSdG9xm7SQpBIIhlh4DHrWdulmncKY7O03Gp36SitHQTrxEut65sy214UfiTPCnjji_Uu73DNgGEMggqQkkDEzDvduKcOUiKlUN8-Mg=w2456-h1379-no?authuser=0
+    - image: https://lh3.googleusercontent.com/pw/AM-JKLVOIFOvL1bvpcfmuzyfF5MqKFIIIiDvJyBxDP2aZFMBiBHrabI8c3u6JWK_Bv70ETm0qv0vw1NQFTf9Mzzzo5aRSXZ3IPNPzeJj2MGWweeb2W-bAqMfSkQ3s4Uilx5B9gEqfbjJOtZDrlJSv1LmSignZQ=w2456-h1379-no?authuser=0
+    - image: https://lh3.googleusercontent.com/pw/AM-JKLWndwfKR2n25xBDcsK4K3i0kMGS160yYoPPc1hkJHK5G94G7z1r--tsNjmG7o09VlWd3NZ3wklDn2t2OaY3foja2aeQe_3sS6s02_GLZaEGqs-nQR-HbSgYL9UNkewr7EiMAUbESHPkDVqo5c1otYryeA=w2456-h1379-no?authuser=0
+    - image: https://lh3.googleusercontent.com/pw/AM-JKLX1gKy6_06_ET5HhhgXQw-3fb5bPwt_D6pgvasO7RIJU9HmCxZgWCmzC4uT8H1bumT9mQj50amEoHGxJDyREVeCumEiGp3FMsnnHufNxhRDPcDgj_jSms7Led7nxTTBek8mRy5C5DIHevDMRmT6OfK5Zg=w2456-h1379-no?authuser=0
+    - image: https://lh3.googleusercontent.com/pw/AM-JKLW9yWw6QAHc30SfYrK1o5nc-0eefLY1-VhO5U4buhfyIvz7yh4i_6OI5BeJZOO7kBGJviTXlbJhIN1ApVuET-gAuYKnwn9SEuTlHqUsAkaPVdXSHoV9sRyLILawnwe5VQrPgy9PG8naOX-Mx9vwCoiT9g=w2456-h1379-no?authuser=0
+    - image: https://lh3.googleusercontent.com/pw/AM-JKLWHzvt4Ga_S01Xb5AzfLYywsDI8MH5GdlU7TPViPBWqoArqcBXaWwycmsPga4I0hMYZ1YuvmDbVDmZ78Oe2dQdtCo_Tr_1DY_XZooe4x_Yft0SBdZxJzQUF_TBup2VTKHnhHshKvU0Ayw7kYL6OxfGDqg=w2456-h1379-no?authuser=0
+    - image: https://lh3.googleusercontent.com/pw/AM-JKLXdbxi31vBy3sSzDE24bis1v1Chm4hGrwYkPM-u_5zB62VH3jx-m2V54L0QoDtw6TmalBmS7rm6clBVKRF9H1EeVAAh0wpWJPtilDNeRR2E0ej9ugoX6XDDBtGPoNmCCT7EP5dIF_ViQH7k3mNB_zXIEQ=w2456-h1379-no?authuser=0
+
 - name: Face Sketches
-  year: Mar 2022
+  year: March 2022
   type: Art
   about: 
   thumbnail: https://lh3.googleusercontent.com/pw/AM-JKLVLl11acXbp937EfI3-XAHNvd0GTju6xyQNX6CCmFuM167_ipgzCYbhQKvb6PwXY46mBaQtGo1qhOWKBNWEY6Ndosr5FZqONsja74KFPd6SCxs5TeyLgd6_l2I6p95KjRBtKdLdljhLc5HkO9b8QPPFdg=s600-no?authuser=0
@@ -418,7 +439,7 @@
 
 # Out of Bounds is an audiovisual composition of black and white generative pieces. Each piece represents a different aspect of technological sensory overload, consisting of hundreds of simple line/shape forms or “atoms” with erratic and rapid movements. As the composition progresses, the switching of pieces and behaviour of atoms becomes more intense. The quantity, sound, and speed of atoms collectively creates a visual and audio cacophony.
 - name: Out of Bounds
-  year: Feb 2022
+  year: February 2022
   type: Art
   about: “We live in an unending rainfall of images. The most powerful media transform the world into images and multiply it by means of the phantasmagoric play of mirrors. These are images stripped of the inner inevitability that ought to mark every image as form and as meaning, as a claim on the attention and as a source of possible meanings. Much of this cloud of visual images fades at once, like the dreams that leave no trace in the memory, but what does not fade is a feeling of alienation and discomfort.”<br/><br/><blockquote>— Italo Calvino, Six Memos for the Next Millennium, 1988</blockquote>
   thumbnail: https://lh3.googleusercontent.com/pw/AM-JKLX9kt33l2eo5EIdj9Hl714pL-8rcEucr2dH8R9OsMTKhwSpjD-u9bxc5hH5-W-7GGqHGtXKGCdSxT6jo20egUn8c6ZxDj89tIqLMNI5PfPyVaSs5B3hiyHhifSUaRPn71UApYFMzIPoN-KceQlclsXM=s600-no?authuser=0
