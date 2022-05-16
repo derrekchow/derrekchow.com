@@ -1,17 +1,28 @@
 
 <nav>
-{% assign items = "research, design, experiments, art, about" | split: ", " %}
-
-    <a href="/" onClick="if (history.length > 1) { event.preventDefault(); history.back(); }"><b>Derrek Chow</b></a>
+    
+    <a href="/{% if page.show == 'new' %}new{% endif %}">
+        <h3 style="padding-top:0">Derrek Chow</h3>
+    </a>
     <br/>
-    {% for item in items %}
-        {% assign url = item %}
-        <a class="internal" id="{{url}}-nav" href="/#{{url}}">{{item | capitalize}}</a>
-    {% endfor %}
-    <!-- <a class="internal" id="about-nav" href="/#about">About</a> -->
+    {% if page.type == "page" %}
+        <a href="{{ page.url }}" class="hr">{{ page.title }}</a>
+    {% endif %}
 
-    {% unless items contains page.id %}
-        <hr/>
-        <a class="internal"><b>{{ page.title }}</b></a>
-    {% endunless %}
+    {% for section in site.data.nav %}
+        {% assign section_name = section | first %}
+        {% assign project_urls = section | last %}
+        
+        <a class="internal {% if project_urls contains page.url %}hr{% endif %}" id="{{section_name}}-nav" href="/{% if page.show == 'new' %}new{% endif %}#{{section_name}}" >{{ section_name | capitalize }}</a>
+        <div class="subnav">
+            {% for url in project_urls %}
+                {% assign project = site.projects | where: "url", url | first %}
+
+                {% unless page.url != "/new" and project.show == "new" and project.title != page.title %}
+                    <a href="{{ project.url }}" {% if project.title != page.title %}class="subtitle"{% endif %}>{{ project.title }}</a>
+                {% endunless %}
+                
+            {% endfor %}
+        </div>
+    {% endfor %}
 </nav>

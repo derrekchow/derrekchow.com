@@ -1,0 +1,152 @@
+---
+title: Quotes
+year: 2010 — present
+data:
+    -
+        text: The problem of the new world architecture is:<br/> <b>The finiteness of mechanics<br/> plus the infiniteness of life.</b>
+        person: Erich Mendelsohn
+        source: Synthesis
+        year: 1928
+
+    -
+        text: It would be a sad irony if we were to end up creating a world too complicated for us to manage alone, and fail to recognize that some of our own inventions could help us deal with our own complexity.
+        person: Howard Rheingold
+        source: Tools For Thought
+        year: 1985
+
+    - 
+        text: The line between "fad" and ordinary product will progressively blur. We are moving swiftly into the era of the temporary product, made by temporary methods, to serve temporary needs. The turnover of things in our lives thus grows even more frenetic. We face a rising flood of throw-away items, impermanent architecture, mobile and modular products, rented goods and commodities designed for almost instant death.
+        person: Alfred Toffler
+        source: Future Shock
+        year: 1920
+
+    -
+        text: We live in an unending rainfall of images. The most powerful media transform the world into images and multiply it by means of the phantasmagoric play of mirrors. These are images stripped of the inner inevitability that ought to mark every image as form and as meaning, as a claim on the attention and as a source of possible meanings. Much of this cloud of visual images fades at once, like the dreams that leave no trace in the memory, but what does not fade is a feeling of alienation and discomfort.
+        person: Italo Calvino
+        source: Six Memos for the Next Millennium
+        year: 1988
+
+    - 
+        text: For intelligence regulates our passions – but the human spirit makes the law. Therefore technology ends with man himself. For once technology becomes an end in itself mechanical theory leads to an over-valuation of technical inventions and makes of technology an idol. Therefore no falsification of the human spirit through mechanization.
+        person: Erich Mendelsohn
+        source: Synthesis
+        year: 1928
+
+    - 
+        text: The organization of the entire economy toward the “better” life has become the major enemy of the good life.
+        person: Ivan Illich
+        source: Tools for Conviviality
+        year: 1973
+
+    - 
+        text: Artists do not create objects, but create by way of objects.
+        person: Otto Rank
+
+    - 
+        text: Man is by all his senses and efforts directed to externals... It is only when he feels joy or sorrow that he knows anything about himself, and only by joy or sorrow is he instructed what to seek and what to avoid. For the rest, man is a confused creature; He knows not whence he comes or whither he goes, he knows little of the world, and above all, he knows little of himself.
+        person: Goethe
+
+    - 
+        text: For rational beings to see or re-cognize their experience in a new material form is an unbought grace of life.
+        person: Marshall McLuhan
+        source: Understanding Media
+        year: 1964
+
+    -
+        text: We haven't gotten any smarter, we've just changed our representation system.
+        person: Alan Kay
+
+    -
+        text: The evolution of culture is synonymous with the removal of ornament from utilitarian objects.
+        person: Adolf Loos
+        source: Ornament and Crime
+        year: 1908
+
+    -
+        text: The sea gulls circling on the invisible currents, the cat on my desk, the siren of a distant ambulance are not somehow distinct from the environment; they are the environment. To look at them I must look for what I take them to be.
+        person: James Carse
+        source: Finite and Infinite Games
+        year: 1986
+
+    -
+        text: We're still children in the computer age, and children like stability. They want to hear the same bedtime story or watch the same video again and again. But as we grow more capable and are better able to cope with a changing world, we become more comfortable with changes and even seek novelty for its own sake.
+        person: Jakob Nielsen
+        source: The Anti-Mac Interface
+        year: 1996
+
+    -
+        text: In the current historical climate, a domain where quantifiable measurement is possible takes precedence over one where it does not. We believe that things that can be measured are real, and we ignore those that we don’t know how to measure.
+        person: Mihaly Csikszentmihalyi
+        source: Creativity
+        year: 1996
+
+    -
+        text: Me, I have a science fiction writer's conviction that the damn robot is supposed to speak human, not the other way around.
+        person: Spider Robinson
+
+    -
+        text: Much of what gives one's life meaning stems from accidents, interruptions, and serendipitous encounters&#58; the "off time" that a mechanistic view of experience seeks to eliminate.
+        person: Jenny Odell
+
+    -
+        text: Much of what gives one's life meaning stems from accidents, interruptions, and serendipitous encounters&#58; the "off time" that a mechanistic view of experience seeks to eliminate.
+        person: Ivan Illich
+        source: Tools for Conviviality
+        year: 1973
+
+    -
+        text: The effects of technology do not occur at the level of opinions or concepts, but alter sense ratios or patterns of perception steadily and without any resistance.
+        person: Marshall McLuhan
+        source: Understanding Media
+        year: 1964
+
+    -
+        text: We have to remember that what we observe is not nature in itself but nature exposed to our method of questioning.
+        person: Werner Heisenberg
+
+    -
+        text: The world which we perceive is a tiny fraction of the world which we can perceive, which is a tiny fraction of the perceivable world.
+        person: Terence McKenna
+
+    -
+        text: The first computers were human, and the last computer may be the human as well.
+        person: Taeyoon Choi
+
+    -
+        text: But Humanity, in its desire for comfort, had over-reached itself. It had exploited the riches of nature too far. Quietly and complacently, it was sinking into decadence, and progress had come to mean the progress of the Machine.
+        person: E. M. Forester
+        source: The Machine Stops
+        year: 1909
+
+    -
+        text: All our steps in creating or absorbing material of the record proceed through one of the senses—the tactile when we touch keys, the oral when we speak or listen, the visual when we read. Is it not possible that some day the path may be established more directly?
+        person: Vannevar Bush
+        source: As We May Think
+        year: 1945
+
+    -
+        text: The work of past ages accumulates, and is remade again.
+        person: Osamu Sato
+        source: The Art of Computer Designing
+        year: 1993
+
+---
+
+<h1><br/><br/>Quotes</h1>
+<hr/>
+
+{% for quote in page.data %}
+    <p>“{{ quote.text }}”</p>
+    <span class="subtitle">
+        {{ quote.person }}
+
+        {% if quote.source %}
+            , <i>{{ quote.source}}</i>
+        {% endif %}
+
+        {% if quote.year %}
+            , {{ quote.year }}
+        {% endif %}
+    </span>
+    <hr/>
+{% endfor %}

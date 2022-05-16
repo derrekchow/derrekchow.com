@@ -1,0 +1,19 @@
+<figure>
+    {% if include.img %}
+        <img src="{{ include.img }}" style="width: 100%" />
+    {% endif %}
+    
+    {% if include.iframe %}
+        <iframe src="{{ include.iframe }}" frameborder="0" width="100%" height="300px" allow="autoplay; fullscreen"
+        allowfullscreen></iframe>
+    {% endif %}
+    
+    {% if include.video %}
+        <video src="{{ include.video }}" width="100%" {{ include.settings | default: "autoplay loop muted" }} controlslist="nodownload noremoteplayback"></video>
+    {% endif %}
+    
+    {% if include.caption %}<figcaption class="subtitle"><i>{{ include.caption }}</i></figcaption>{% endif %}
+</figure>
+
+
+

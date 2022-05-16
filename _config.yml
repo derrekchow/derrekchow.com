@@ -4,42 +4,43 @@ plugins:
   - jekyll-datapage-generator
   - kramdown-parser-gfm
 
-page_gen_dirs: true
-
-page_gen:
-- data: projects
-  template: project
-  dir: '/'
-  name_expr: "record['name'].gsub(' ', '-').downcase"
-  title: name
-  filter_condition: "record['type'] == 'Research'"
-- data: projects
-  template: project
-  dir: '/'
-  name_expr: "record['name'].gsub(' ', '-').downcase"
-  title: name
-  filter_condition: "record['type'] == 'Experiments'"
-- data: projects
-  template: project
-  dir: '/'
-  name_expr: "record['name'].gsub(' ', '-').downcase"
-  title: name
-  filter_condition: "record['type'] == 'Design'"
-- data: projects
-  template: project
-  dir: '/'
-  name_expr: "record['name'].gsub(' ', '-').downcase"
-  title: name
-  filter_condition: "record['type'] == 'Art'"
-- data: canhap501
-  template: project
-  dir: '/canhap501'
-  name_expr: "record['name'].gsub(' ', '-').downcase"
-  title: name
+collections_dir: _data
 
 collections:
+  canhap501:
+    output: true
+    permalink: /:collection/:name
+  projects:
+    permalink: /:name
+    output: true
   papers:
     output: true
+  pages:
+    output: true
+    permalink: /:name
+
+defaults:
+  - 
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+      show: true
+  - 
+    scope:
+      path: ""
+      type: "canhap501"
+    values:
+      layout: "project"
+      type: page
+  - 
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "main"
+      type: page
 
 sass:
   style: compressed

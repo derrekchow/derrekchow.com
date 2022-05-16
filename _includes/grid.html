@@ -1,22 +1,18 @@
-<section id="{{ include.section | downcase }}"  >
-    <h1 class="thumbnail-title">{{ include.section }}</h1>
-    <hr/>
+<section id="{{ include.section }}"  >
+    <h1 class="hr">{{ include.section | capitalize }}</h1><br/>
     <r-grid columns={{ include.columns }} columns-s=1>
-    {% assign projects = site.data.projects | where: "type", include.section %}
-    {% for project in projects %}
-        {% if (project.show != false and project.show != "new") or (project.show == "new" and page.url == "/new") %}
-        <r-cell class="thumbnail">
-            <a href="{{project.name | downcase | replace: ' ', '-'}}">
-                <img style="width:100%" src="{{ project.thumbnail }}" />
-                <h3>
-                    {{ project.name }}
-                    {{ projects.show }}
-                    {% if project.fav %} ⭐{% endif %}
-                </h3>
-            </a>
-        </r-cell>
-        {% endif %}
-    {% endfor %}
+        {% for url in site.data.nav[include.section] %}
+            {% assign project = site.projects | where: "url", url | first %}
+            
+            {% unless page.url == "/" and project.show == "new" %}
+                <r-cell class="thumbnail">
+                    <a href="{{ project.url }}">
+                        <img style="width:100%" src="{{ project.thumbnail }}" />
+                        <h3 class="subtitle">{{ project.title }}</h3>
+                    </a>
+                </r-cell>
+            {% endunless %}
+        {% endfor %}
     </r-grid>
 </section>
 

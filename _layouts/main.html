@@ -7,16 +7,12 @@ layout: compress
         {% include head.html %}
     </head>
     <body>
-        <main>
-            <r-grid columns=9>
-                <r-cell span=8 style="max-width:1000px; margin: auto" id="{% if page.id %}{{page.id}}{% endif %}">
-                    {{ content }}
-                    <section  >
-                        <p class="subtitle">© Derrek Chow 2022</p>
-                    </section>
-                </r-cell>
-                <r-cell span=1>{% include nav.html %}</r-cell>
-            </r-grid>
-        </main>
+        <r-grid columns=6 columns-s=1 style="max-width:1100px;">
+            <r-cell span=1>{% include nav.html %}</r-cell>
+            <r-cell span=5 class="{{page.type}}">
+                {{ content }}
+                <section class="subtitle">© Derrek Chow 2022</section>
+            </r-cell>
+        </r-grid>
     </body>
 </html>
