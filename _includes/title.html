@@ -1,0 +1,25 @@
+<div>
+    <h1>{{ page.title }}</h1>
+    <div class="info">
+        <span class="">
+            {% if page.year %}
+            <label>{{ page.year }}</label> <span class="subtitle">|</span>
+            {% endif %}
+            <!-- {% if page.place %}
+                <br/><label>{{ page.place }}</label>
+                    {% endif %} -->
+        </span>
+
+        {% if page.collab %}
+        <label>{{ page.collab | join: ", " }}</label>
+        {% else %}
+        <label>Derrek Chow</label>
+        {% endif %}
+        <br />
+    </div>
+
+    {% if page.role %}
+    <i><div class="subtitle">{{ page.role | join: ", " }}</div></i>
+    {% endif %}
+    <br/>
+</div>

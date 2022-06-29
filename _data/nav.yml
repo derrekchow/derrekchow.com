@@ -1,14 +1,23 @@
 research:
-    - /airracket
-    - /chandelier
-    - /supertodo
+  - /airracket
+  - /chandelier
+  - /supertodo
+  - /the-swissball
 
 design:
+  - /panel
+  - /robogo
+  - /uw-flow
+  - /from-the-intercom
 
 experiments:
+  - /body-and-space
 
 art:
+  - /out-of-bounds
+  - /light-on-bag
+  - /face-sketches
 
 about:
-  - /cv
+  - /interviews
   - /quotes

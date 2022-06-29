@@ -1,5 +1,5 @@
 <section id="{{ include.section }}"  >
-    <h1 class="hr">{{ include.section | capitalize }}</h1><br/>
+    <h1 class="hr">{{ include.section | capitalize }}</h1>
     <r-grid columns={{ include.columns }} columns-s=1>
         {% for url in site.data.nav[include.section] %}
             {% assign project = site.projects | where: "url", url | first %}

@@ -1,97 +1,110 @@
-$font-color: white
-$link-color: var(--blue)
 $unit: 1rem
-$bold: bold
-$black: black
 
-@font-face
-    font-family: Untitled
-    src: url('../fonts/UntitledSans-Medium.otf')
-    font-weight: bold
+html:root
+    --hrThickness: 0.5px
+    --fontSize: 14px
+    --sansFont: Untitled
+    --background-color: black
+    --foreground-color: white
+    --columnGap: calc(var(--lineHeight))
+    --grey: #999
+    font-weight: lighter
+
+// @font-face
+//     font-family: Untitled
+//     src: url('../fonts/UntitledSans-Medium.otf')
+//     font-weight: 700
 
 @font-face
     font-family: Untitled
     src: url('../fonts/UntitledSans-Regular.otf')
-    font-weight: normal
+    font-weight: 400
+    font-style: normal
 
-a, h3>a
-    text-decoration: underline rgba(255, 255, 255, 0.7)
-    -webkit-text-decoration: underline rgba(255, 255, 255, 0.7)
+@font-face
+    font-family: Untitled
+    src: url('../fonts/UntitledSans-RegularItalic.otf')
+    font-weight: 400
+    font-style: italic
+
+@font-face
+    font-family: Untitled
+    src: url('../fonts/UntitledSans-Light.otf')
+    font-weight: 300
+    font-style: normal
+
+@font-face
+    font-family: Untitled
+    src: url('../fonts/UntitledSans-LightItalic.otf')
+    font-weight: 300
+    font-style: italic
+
+a
+    border-bottom: 1px solid var(--grey)
     white-space: normal
+    text-decoration: none
     &:hover
         cursor: pointer
-        color: $link-color
-        text-decoration-color: $link-color
+        border-color: var(--foreground-color)
+        text-decoration: none !important
+        color: var(--foreground-color)
 
-hr
-    background-color: $font-color
+.thumbnail:hover a>h3
+    color: var(--foreground-color)
 
-html, body
-    font-family: Untitled
-    background-color: $black
-    color: $font-color
-    font-weight: light
-    line-height: 1.2
-
-// .project .text
-//     z-index: 0
-//     position: sticky
-//     top: calc(var(--lineHeight)*2)
+h1, h2, h3
+    font-weight: normal
 
 .hr
-    border-bottom: var(--hrThickness) solid $font-color
+    border-bottom: var(--hrThickness) solid var(--grey)
+
+.subtitle
+    color: var(--grey) !important
+    font-weight: lighter
+
+section h1
+    padding-bottom: $unit/4
 
 nav
-    z-index: 0
     position: sticky
     top: $unit*4
-    font-weight: $bold
+    h4
+        margin-top: var(--baseline)
+        margin-bottom: 0
     a
         border-bottom: var(--hrThickness) solid transparent
         text-decoration: none
         display: block
-        padding-bottom: 2px
-        margin-bottom: $unit/2
+        &:hover
+            border-color: var(--grey)
     .subnav
-        margin-left: $unit/2
-        margin-bottom: $unit/2
-
-.thumbnail a
-    text-decoration: none 
-    &:hover
-        text-decoration: underline
-        color: $font-color
-    h3
-        padding-top: 0
-        margin-top: 0
-    
-.subtitle
-    opacity: 0.6
-    font-weight: normal
+        // margin-left: $unit/2
 
 section
     padding-top: $unit*8
-    h1
-        margin-bottom: 0
-    hr
-        margin-top: $unit/3 !important
 
-.narrow 
-    max-width: 500px
-
-.warning
-    color: red
-    white-space: nowrap
-
-// article, #about p, #quotes
-//     text-align: justify
+hr
+    background: var(--grey)
 
 .page
-    p, hr
-        max-width: 500px
-    hr
-        margin-top: $unit*4
-        margin-bottom: $unit*4
-        opacity: 0.4
-    blockquote
-        opacity: 0.6
+    max-width: 500px
+
+h1
+    margin-bottom: calc(var(--baseline)/2)
+
+.project
+    h1
+        margin-bottom: var(--baseline)
+
+    .info
+        font-size: var(--h4-size)
+        font-weight: normal
+
+.quote
+    quotes: "\201C" "\201D" "\2018" "\2019"
+    text-indent: -0.7ch
+    margin-bottom: 0
+    &::before
+        content: open-quote
+    &::after
+        content: close-quote

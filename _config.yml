@@ -13,8 +13,6 @@ collections:
   projects:
     permalink: /:name
     output: true
-  papers:
-    output: true
   pages:
     output: true
     permalink: /:name
@@ -32,8 +30,8 @@ defaults:
       path: ""
       type: "canhap501"
     values:
-      layout: "project"
-      type: page
+      layout: "main"
+      type: "page"
   - 
     scope:
       path: ""

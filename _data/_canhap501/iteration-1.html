@@ -3,6 +3,8 @@ title: Iteration 1
 year: CanHap501, Winter 2022
 ---
 
+{% include title.html %}
+
 {% include media.html img="https://user-images.githubusercontent.com/17170744/156651953-114f4aff-2f50-4ab8-a6ac-4c19b576f6a6.png" %}
 
 My objective with Iteration 1 was to connect both Haplys into one program and use their positions to control pitch (left Haply) and volume (right Haply). I was to make this data audible through <a href="https://puredata.info/" target="_blank">Pure Data</a>, a music synthesis software. I was responsible for connecting and producing sound from the Haplys while the other teammates focused on haptic rendering. My motivation was to fully connect the components and setup a foundation our team could build off of for the next iterations.<br/><br/>My approach was to clean up the Processing code (based on Hello Wall) for our purposes, setup both Haplys, send position data to Pure Data, map this data to sound, then experiment with different interactions/mappings of movement to sound properties (pitch and volume). The image on the left is the "code" in Pure Data receiving OSC data from Processing. Processing reads position data from both Haplys, send it as OSC messages to Pure Data, which then generates sounds from it.<br/><br/><h3><a href="https://git.uwaterloo.ca/d28chow/canhap501/-/blob/master/iteration_1" target="_blank">Link to the code</a></h3>
