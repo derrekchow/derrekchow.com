@@ -1,0 +1,26 @@
+<p></p>
+{% for type in page.external %}
+    {% if include.all %}
+        {% assign entries = site.projects | where_exp: "item", "item.external contains type" | map: "external" | map : type | flatten %}
+
+        <br/>
+        <h2>{{ type | capitalize }}</h2>
+    {% else %}
+        {% assign entries = type | last %}
+        <h3 class="hr">{{ type | first | capitalize }}</h3>
+    {% endif %}
+    
+
+    {% for entry in entries %}
+        <b>{{ entry.source }}</b>. <a href="{{ entry.url }}" target="blank">{{ entry.title }}</a>. <i> {{ entry.date }}</i>.<br/><br/>
+        {% if entry.award %}
+        <b>★ {{ entry.award | upcase }} AWARD</b><br/><br/>
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+
+
+
+
+
+

@@ -1,17 +1,21 @@
 research:
   - /airracket
   - /chandelier
-  - /supertodo
-  - /the-swissball
+  # - /supertodo
+  - /swissball
+  - /scoby
+  - /hapstrument
 
 design:
   - /panel
   - /robogo
   - /uw-flow
   - /from-the-intercom
+  - /slay
 
 experiments:
   - /body-and-space
+  - /hackathons
 
 art:
   - /out-of-bounds
@@ -21,3 +25,4 @@ art:
 about:
   - /interviews
   - /quotes
+  - /media
