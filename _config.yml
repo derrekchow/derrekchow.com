@@ -1,3 +1,5 @@
+destination: ./docs
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
