@@ -2,12 +2,13 @@ $unit: 1rem
 
 html:root
     --hrThickness: 0.5px
-    --fontSize: 14px
+    --fontSize: 13px
     --sansFont: Untitled
     --background-color: black
     --foreground-color: white
     --columnGap: calc(var(--lineHeight))
-    --grey: #999
+    --grey: #aaa
+    line-height: 1.4
     font-weight: lighter
 
 // @font-face
@@ -39,6 +40,10 @@ html:root
     font-weight: 300
     font-style: italic
 
+body
+    padding: $unit*2
+    padding-top: $unit*2
+
 a
     border-bottom: 1px solid var(--grey)
     white-space: normal
@@ -67,14 +72,13 @@ section h1
 
 nav
     position: sticky
-    top: $unit*4
-    h4
-        margin-top: var(--baseline)
-        margin-bottom: 0
+    top: $unit*3
     a
         border-bottom: var(--hrThickness) solid transparent
         text-decoration: none
         display: block
+        line-height: 1.1
+        margin-bottom: $unit/2
         &:hover
             border-color: var(--grey)
     .subnav

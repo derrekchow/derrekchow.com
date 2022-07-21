@@ -7,20 +7,21 @@
     {% assign section_name = section | first %}
     {% assign project_urls = section | last %}
     <!-- // {% if project_urls contains page.url %}hr{% endif %} -->
-    <h4><a class="internal" id="{{section_name}}-nav"
-            href="/{% if page.show == 'new' %}new{% endif %}#{{section_name}}">{{ section_name | capitalize }}</a></h4>
+    <a class="internal" id="{{section_name}}-nav"
+            href="/{% if page.show == 'new' %}new{% endif %}#{{section_name}}"><b>{{ section_name | capitalize }}</b></a>
     <div class="subnav">
         {% for url in project_urls %}
-        {% assign project = site.projects | concat: site.pages | where: "url", url | first %}
+            {% assign project = site.projects | concat: site.pages | where: "url", url | first %}
 
-        {% unless page.url != "/new" and project.show == "new" and project.title != page.title %}
-        <a href="{{ project.url }}" class="{% if project.title == page.title %}hr{% endif %} subtitle">{{ project.title
-            }}</a>
-        {% endunless %}
+            {% unless page.url != "/new" and project.show == "new" and project.title != page.title %}
+                <a href="{{ project.url }}" class="{% if project.title == page.title %}hr{% endif %} subtitle">{{ project.title }}</a>
+            {% endunless %}
 
         {% endfor %}
     </div>
+    <br/>
     {% endfor %}
+    
 
     <!-- {% if page.type == "page" %}
         <a href="{{ page.url }}" class="hr">{{ page.title }}</a>

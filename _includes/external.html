@@ -2,19 +2,43 @@
 {% for type in page.external %}
     {% if include.all %}
         {% assign entries = site.projects | where_exp: "item", "item.external contains type" | map: "external" | map : type | flatten %}
-
+        {% assign type_name = type %}
         <br/>
-        <h2>{{ type | capitalize }}</h2>
+        <h2 class=""><b>{{ type | capitalize }}</b></h2><br/>
     {% else %}
         {% assign entries = type | last %}
-        <h3 class="hr">{{ type | first | capitalize }}</h3>
+        {% assign type_name = type | first %}
+        <h3 class="hr">{{ type_name | capitalize }}</h3>
     {% endif %}
-    
 
+    {% assign entries = entries | sort: "date" | reverse %}
+    
+    {% if type_name == "exhibitions" or type_name == "performances" or type_name == "education" %}
+        {% assign type_name = "events" %}
+    {% elsif type_name == "teaching" or type_name == "professional" %}
+        {% assign type_name = "research" %}
+    {% else %}
+    {% endif %}
     {% for entry in entries %}
-        <b>{{ entry.source }}</b>. <a href="{{ entry.url }}" target="blank">{{ entry.title }}</a>. <i> {{ entry.date }}</i>.<br/><br/>
+        {% case type_name %}
+            {% when "credits" %}
+                {{ entry }}
+            {% when "press" %}
+                <b>{{ entry.source }}</b>. <a href="{{ entry.url }}" target="_blank">{{ entry.title }}</a>. <i>{{ entry.date }}</i>.
+            {% when "publications" %}
+                {{ entry.authors }}. <a href="{{ entry.url }}" target="_blank">{{ entry.title }}</a>. <i>{{ entry.venue }}. {{ entry.pages }} pages</i>.
+            {% when "events" %}
+                <a href="{{ entry.url }}" target="_blank"><b>{{ entry.title }}</b></a>. {{ entry.venue }}. {{ entry.location }}. <i>{{ entry.date }}</i>.
+            {% when "talks" %}
+                <a href="{{ entry.url }}" target="_blank"><b>{{ entry.group }}</b></a>. {{ entry.venue }}. {{ entry.location }}. "{{ entry.title }}". <i>{{ entry.date }}</i>.
+            {% when "research" %}
+                <b>{{ entry.title }}</b>. <a href="{{ entry.url }}" target="_blank">{{ entry.group }}</a>. {{ entry.venue }}. {{ entry.location }}. <i>{{ entry.date }}</i>.
+            {% else %}
+                <b>{{ entry.title }}</b>. {{ entry.location }}. <i>{{ entry.date }}</i>.
+        {% endcase %}
+        <br/><br/>
         {% if entry.award %}
-        <b>★ {{ entry.award | upcase }} AWARD</b><br/><br/>
+            <b>★ {{ entry.award | upcase }} AWARD</b><br/><br/>
         {% endif %}
     {% endfor %}
 {% endfor %}

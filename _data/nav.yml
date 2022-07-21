@@ -2,7 +2,7 @@ research:
   - /airracket
   - /chandelier
   # - /supertodo
-  - /swissball
+  - /the-swissball
   - /scoby
   - /hapstrument
 
@@ -15,14 +15,19 @@ design:
 
 experiments:
   - /body-and-space
-  - /hackathons
+  - /hackathon-projects
+  - /atlas-lights
+  - /creative-coding
 
 art:
   - /out-of-bounds
   - /light-on-bag
   - /face-sketches
+  - /generative-forms
+  - /virtual-pottery
+  - /rot
 
 about:
   - /interviews
   - /quotes
-  - /media
+  - /cv
