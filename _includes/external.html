@@ -1,17 +1,15 @@
-<p></p>
 {% for type in page.external %}
     {% if include.all %}
         {% assign entries = site.projects | where_exp: "item", "item.external contains type" | map: "external" | map : type | flatten %}
         {% assign type_name = type %}
         <br/>
-        <h2 class=""><b>{{ type | capitalize }}</b></h2><br/>
+        <h1>{{ type | capitalize }}</h1>
     {% else %}
         {% assign entries = type | last %}
         {% assign type_name = type | first %}
         <h3 class="hr">{{ type_name | capitalize }}</h3>
     {% endif %}
-
-    {% assign entries = entries | sort: "date" | reverse %}
+    
     
     {% if type_name == "exhibitions" or type_name == "performances" or type_name == "education" %}
         {% assign type_name = "events" %}

@@ -1,14 +1,15 @@
 ---
 layout: main
+type: project
 ---
 
-<r-grid columns=8 columns-s=1>
-    <r-cell span=5>
+{% include title.html %}<br/><br/>
+<r-grid columns=3 columns-s=1>
+    <r-cell span=2>
         {{ content }}
     </r-cell>
-    <r-cell span=3>
-        {% include title.html %}
-        {{ page.text }}
+    <r-cell span=1 class="about">
+        {% if page.text %}<p>{{ page.text }}</p>{% endif %}
         {% include external.html %}
     </r-cell>
 </r-grid>

@@ -1,5 +1,5 @@
-<section id="{{ include.section }}"  >
-    <h1 class="hr">{{ include.section | capitalize }}</h1>
+<section id="{{ include.section }}" >
+    <h1>{{ include.section | capitalize }}</h1>
     <r-grid columns={{ include.columns }} columns-s=1>
         {% for url in site.data.nav[include.section] %}
             {% assign project = site.projects | where: "url", url | first %}
@@ -7,7 +7,7 @@
             {% unless page.url == "/" and project.show == "new" %}
                 <r-cell class="thumbnail">
                     <a href="{{ project.url }}">
-                        <img style="width:100%" src="{{ project.thumbnail }}" />
+                        <img width="100%" src="{{ project.thumbnail }}" />
                         <h3 class="subtitle">{{ project.title }}</h3>
                     </a>
                 </r-cell>

@@ -1,17 +1,19 @@
 research:
+  - /scoby
+  - /swissball
   - /airracket
+  - /hapstrument
   - /chandelier
   # - /supertodo
-  - /the-swissball
-  - /scoby
-  - /hapstrument
 
 design:
   - /panel
   - /robogo
-  - /uw-flow
-  - /from-the-intercom
   - /slay
+  - /from-the-intercom
+  - /uw-flow
+
+
 
 experiments:
   - /body-and-space
@@ -20,14 +22,14 @@ experiments:
   - /creative-coding
 
 art:
-  - /out-of-bounds
   - /light-on-bag
+  - /out-of-bounds
   - /face-sketches
+  - /chaldni
   - /generative-forms
   - /virtual-pottery
   - /rot
 
 about:
-  - /interviews
   - /quotes
   - /cv

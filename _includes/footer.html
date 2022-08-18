@@ -1,0 +1,30 @@
+
+<footer>
+    <div class="body">
+        <div></div>
+        {% for section in site.data.nav %}
+            {% assign section_name = section | first %}
+            {% assign project_urls = section | last %}
+            <div class="column">
+                <h3>
+                    <a class="internal" id="{{section_name}}-nav"
+                        href="/{% if page.show == 'new' %}new{% endif %}#{{section_name}}">{{ section_name | capitalize }}</a>
+                </h3>
+                
+                <div>
+                    {% for url in project_urls %}
+                        {% assign project = site.projects | concat: site.pages | where: "url", url | first %}
+
+                        {% unless page.url != "/new" and project.show == "new" and project.title != page.title %}
+                            <a href="{{ project.url }}" class="{% if project.title == page.title %}hr{% endif %} subtitle">{{ project.title }}</a>
+                        {% endunless %}
+
+                    {% endfor %}
+                </div>
+            </div>
+        {% endfor %}   
+        <div></div>
+    </div>
+    <section class="subtitle" align="left">© Derrek Chow 2022</section> 
+</footer>
+

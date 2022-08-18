@@ -1,5 +1,6 @@
 ---
 title: Quotes
+year: 2022
 data:
     -
         text: The problem of the new world architecture is:<br/>The finiteness of mechanics<br/> plus the infiniteness of life.
@@ -228,12 +229,8 @@ data:
 
 
 ---
-
-<br/><br/>
-<h1>Quotes</h1>
-<br/>
-<hr/>
-<br/><br/>
+{% include title.html %}
+<hr/><br/><br/>
 
 {% assign quotes = page.data %}
 {% for quote in quotes %}

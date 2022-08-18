@@ -25,21 +25,20 @@ defaults:
       path: ""
       type: "projects"
     values:
-      layout: "project"
-      show: true
+      layout: project
   - 
     scope:
       path: ""
       type: "canhap501"
     values:
-      layout: "main"
-      type: "page"
+      layout: main
+      type: page
   - 
     scope:
       path: ""
       type: "pages"
     values:
-      layout: "main"
+      layout: main
       type: page
 
 sass:
