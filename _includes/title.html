@@ -12,10 +12,8 @@
         {% else %}
         <label>Derrek Chow</label>
         {% endif %}
-        <br />
+        {% if page.role %}
+            <i><div class="subtitle">{{ page.role | join: ", " }}</div></i>
+        {% endif %}
     </div>
-
-    {% if page.role %}
-        <i><div class="subtitle">{{ page.role | join: ", " }}</div></i>
-    {% endif %}
 </div>
