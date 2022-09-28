@@ -96,7 +96,6 @@ hr
         margin-bottom: $unit/2
 
 nav
-    padding-bottom: $unit*5
     background-color: var(--background-color)
     display: flex
     justify-content: space-between
@@ -120,15 +119,22 @@ footer
         display: flex
         flex-wrap: wrap
         justify-content: space-between
-            
+
 section
-    padding-top: $unit*10
+    padding-top: $unit*8
+            
+.main-grid
     .thumbnail
+        &:hover
+            opacity: 1
+            filter: grayscale(0)
+        opacity: 0.6
+        filter: grayscale(0.9)
         margin-bottom: -20%
         img
             height: 70%
             object-fit: cover
-        h3
+        h4
             padding: 0
             padding-bottom: $unit
         

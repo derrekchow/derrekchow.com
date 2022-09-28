@@ -1,28 +1,25 @@
-<header style="max-width:1000px">
-    <h1 class="large">Derrek Chow is a researcher, designer, and creative technologist.</h1>
-    <h3 class="subtitle">He is currently exploring new forms of creative expression through the interaction between people and computers.
-</header>
+<h1 style="margin:0">Derrek Chow is an inventor and artist</h1>
+<h3 class="subtitle">He is currently creating immersive light experiences and novel input devices</h3>
+<br/><br/>
 
-{% include grid.html section="research" columns=3 %}
-{% include grid.html section="design" columns=3 %}
-{% include grid.html section="experiments" columns=4 %}
-{% include grid.html section="art" columns=4 %}
+{% include grid.html section="light" columns=3 %}
+
 <section id="about">
     <h1>About</h1>
     <r-grid columns=2 columns-s=1>
         <r-cell span=1>
             <p>
-                Derrek Chow is an interdisciplinary researcher, designer, and creative technologist from Toronto. His work explores Human-Computer Interaction and the intersections of art, design, and technology to create new, more empowering and humane ways to interact with computers.
+                Derrek Chow is an inventor and artist from Toronto, Canada. He explores news forms of interaction with computers through making. Using design and technology as tools of inquiry, he creates highly experiential works that sits between artifact, installation, performance, and more.
                 <br/><br/>
-                Derrek was a visiting researcher at the <a href="https://www.colorado.edu/atlas/acme-lab" target="_blank">ACME Lab</a> in the <a href="https://www.colorado.edu/atlas/" target="_blank">ATLAS Institute</a> and the <a href="https://ntuhci.org/" target="_blank">NTU HCI Lab</a> in National Taiwan University, as well as a designer at <a href="https://rndr.studio/" target="_blank">RNDR</a>. He received an undergraduate degree from the University of Waterloo, where he studied in the <a href="http://hci.cs.uwaterloo.ca/" target="_blank">Expressive Input & Interaction Group</a>.
+                Derrek conducted research in Human-Computer Interaction at the <a href="https://www.colorado.edu/atlas/acme-lab" target="_blank">ACME Lab</a> in the <a href="https://www.colorado.edu/atlas/" target="_blank">ATLAS Institute</a> and the <a href="https://ntuhci.org/" target="_blank">NTU HCI Lab</a> in National Taiwan University, and was as a designer at <a href="https://rndr.studio/" target="_blank">RNDR</a>.
             </p>
         </r-cell>
-        <r-cell span=1>
+        <r-cell span=1 align="right">
             <b>Contact</b><br /><a href="mailto:site@derrekchow.com">hi@derrekchow.com</a>
             <br /><br />
 
             <b>Links</b><br /><a
-            href="/quotes">Quotes</a>, <a href="/interviews">Interviews</a>, <a href="https://bookshelf.website/derrekchow" target="_blank">Bookshelf↗</a>, <a href="https://photos.app.goo.gl/L8ZR91Tnuy3XkSZz9"
+            href="/quotes">Quotes</a>, <a href="https://bookshelf.website/derrekchow" target="_blank">Bookshelf↗</a>, <a href="https://photos.app.goo.gl/L8ZR91Tnuy3XkSZz9"
                 target="_blank">Process↗</a>, <a
                 href="https://open.spotify.com/user/227xetjpmjboa4xazsscy3sai?si=1T3GVS-QQnyISxScgHVGtA"
                 target="_blank">Playlists↗</a>
@@ -34,41 +31,18 @@
         </r-cell>
     </r-grid>
 </section>
+<section></section>
 
-<section style="max-width:1000px">
-    <h1 class="quote large">The purpose of any tool ought to be to help human beings become more human.</h1>
-    <h3 class="subtitle">Howard Rheingold on Seymour Papert, <a href="http://www.rheingold.com/texts/tft/"
-            target="_blank"><i>Tools for Thought</i></a></h3>
-</section>
+<!-- <section style="max-width:1000px">
+    <h1 class="quote">For rational beings to see or re-cognize their experience in a new material form is an unbought grace of life.</h1>
+    <h3 class="subtitle">Marshall McLuhan</i></a></h3>
+</section> -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
     integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
     crossorigin="anonymous"></script>
-
 <script>
-    // function makeActive(hash) {
-    //     if (hash == "#") return;
-    //     $('a.internal').removeClass('hr');
-    //     $(hash + "-nav").addClass('hr');
-    // }
-
     $(document).ready(function () {
-        // makeActive(location.hash);
-
-        // var window_height = $(window).height();
-        // $(window).resize(function () {
-        //     window_height = $(window).height();
-        // });
-        // $(window).scroll(function () {
-        //     var scrollMiddle = $(window).scrollTop() + window_height / 2;
-        //     $('section').each(function (e) {
-        //         elTop = $(this).offset().top;
-        //         elBtm = elTop + $(this).height();
-        //         if (elTop < scrollMiddle && elBtm > scrollMiddle - 300) {
-        //             makeActive("#" + this.id);
-        //         }
-        //     });
-        // });
 
         $("a.internal").click(function (event) {
             event.preventDefault();

@@ -225,18 +225,20 @@ data:
         person: Florian Coulmas
         source: Identity&#58; A Very Short Introduction
         year: 2019
-
-
+    
+    -
+        text: The map is not the territory.
+        person: Alfred Korzybski
 
 ---
 {% include title.html %}
-<hr/><br/><br/>
+<br/><br/><hr/><br/><br/>
 
 {% assign quotes = page.data %}
 {% for quote in quotes %}
     <p class="quote">{{ quote.text }}</p><br/>
     <span class="subtitle">
-        {{ quote.person }}{% if quote.source %}, <i>{{ quote.source}}</i>{% endif %}{% if quote.year %}, {{ quote.year }}{% endif %}
+        {{ quote.person }}<i>{% if quote.source %}, {{ quote.source}}{% endif %}{% if quote.year %} ({{ quote.year }}){% endif %}</i>
     </span>
     <br/><br/><br/>
     <hr/>

@@ -1,16 +1,6 @@
+{% if page.url != "/" and page.url != "/new" %}
 <nav>
-    <!-- <a id="menu" onclick="var nav = document.getElementById('nav-body'); document.getElementById('menu').innerHTML = (nav.style.display == 'none') ? '▼ Menu' : '◀ Menu'; nav.style.display = (nav.style.display == 'none') ? 'flex' : 'none';">◀ Menu</a> -->
-    <h4>
-        <a href="/{% if page.show == 'new' %}new{% endif %}">Derrek Chow</a>
-    </h4>
-
-    <div class="right">
-        {% for section in site.data.nav %}
-        {% assign section_name = section | first %}
-        <h4>
-            <a class="internal" id="{{section_name}}-nav"
-                href="/{% if page.show == 'new' %}new{% endif %}#{{section_name}}">{{ section_name | capitalize }}</a>
-        </h4>
-        {% endfor %}
-    </div>
+    <h4>← <a href="/{% if page.show == 'new' %}new{% endif %}">Derrek Chow</a></h4>
+    <h4><a href="/{% if page.show == 'new' %}new{% endif %}#about">About</a></h4>
 </nav>
+{% endif %}

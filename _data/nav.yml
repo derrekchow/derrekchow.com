@@ -1,34 +1,26 @@
-research:
+
+
+light:
+  - /synaptic-resonance
+  - /slay-the-runway
+  - /light-on-bag
+  - /panel
+  - /robogo
+  - /transdimensional
+  - /lost-searchlights
+  - /out-of-bounds
+  - /process
+  - /atlas-lights
+  - /body-light-space
+  - /face-sketches
   - /scoby
   - /swissball
   - /airracket
   - /hapstrument
   - /chandelier
-  # - /supertodo
-
-design:
-  - /panel
-  - /robogo
-  - /slay
-  - /from-the-intercom
-  - /uw-flow
-
-
-
-experiments:
-  - /body-and-space
   - /hackathon-projects
-  - /atlas-lights
   - /creative-coding
-
-art:
-  - /light-on-bag
-  - /out-of-bounds
-  - /face-sketches
-  - /chaldni
-  - /generative-forms
-  - /virtual-pottery
-  - /rot
+  - /from-the-intercom
 
 about:
   - /quotes

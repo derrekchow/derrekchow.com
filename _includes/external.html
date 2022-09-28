@@ -11,7 +11,7 @@
     {% endif %}
     
     
-    {% if type_name == "exhibitions" or type_name == "performances" or type_name == "education" %}
+    {% if type_name == "exhibition" or type_name == "performance" or type_name == "education" %}
         {% assign type_name = "events" %}
     {% elsif type_name == "teaching" or type_name == "professional" %}
         {% assign type_name = "research" %}
@@ -23,11 +23,11 @@
                 {{ entry }}
             {% when "press" %}
                 <b>{{ entry.source }}</b>. <a href="{{ entry.url }}" target="_blank">{{ entry.title }}</a>. <i>{{ entry.date }}</i>.
-            {% when "publications" %}
+            {% when "publication" %}
                 {{ entry.authors }}. <a href="{{ entry.url }}" target="_blank">{{ entry.title }}</a>. <i>{{ entry.venue }}. {{ entry.pages }} pages</i>.
             {% when "events" %}
                 <a href="{{ entry.url }}" target="_blank"><b>{{ entry.title }}</b></a>. {{ entry.venue }}. {{ entry.location }}. <i>{{ entry.date }}</i>.
-            {% when "talks" %}
+            {% when "speaking" %}
                 <a href="{{ entry.url }}" target="_blank"><b>{{ entry.group }}</b></a>. {{ entry.venue }}. {{ entry.location }}. "{{ entry.title }}". <i>{{ entry.date }}</i>.
             {% when "research" %}
                 <b>{{ entry.title }}</b>. <a href="{{ entry.url }}" target="_blank">{{ entry.group }}</a>. {{ entry.venue }}. {{ entry.location }}. <i>{{ entry.date }}</i>.
