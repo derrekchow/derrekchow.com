@@ -1,15 +1,15 @@
 
 
 light:
+  - /transdimensional
+  - /lost-searchlights
+  - /out-of-bounds
+  - /process
   - /synaptic-resonance
   - /slay-the-runway
   - /light-on-bag
   - /panel
   - /robogo
-  - /transdimensional
-  - /lost-searchlights
-  - /out-of-bounds
-  - /process
   - /atlas-lights
   - /body-light-space
   - /face-sketches
