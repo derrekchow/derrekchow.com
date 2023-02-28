@@ -1,6 +1,5 @@
 ---
 title: Quotes
-year: 2022
 data:
     -
         text: The problem of the new world architecture is:<br/>The finiteness of mechanics<br/> plus the infiniteness of life.
@@ -230,6 +229,24 @@ data:
         text: The map is not the territory.
         person: Alfred Korzybski
 
+    -
+        text: Nothing is itself anymore. Everything points to something else, has to be like that and this. A chair isn&#39;t a chair any more. It has to look like a sculpture, like a work of art.
+        person: Otl Aicher
+        source: The World as Design
+        year: 1991
+
+    -
+        text: When you speak of the photographer, there need be no distinction between the amateur and the professional. Photography is a skill in the hands of persons who may be primarily something else. The photographer who is only a photographer is not a photographer. The magazine photographer is first a journalist. The scientific or architectural photographer may be a scientist or an architect using the camera as a specialized tool. All photographers are part of their world. They know that there are two keys to the language of photography, akin to the examining and transmitting functions of the camera. Th two keys with which one works are meaning and technique.
+        person: John R. Whiting
+        source: Photography is a Language
+        year: 1979
+
+    -
+        text: Failure - A subjective emotional experience caused by the interpretation of error as unrecoverable that yields negative attitudes towards continuing or pursuing a practice.
+        person: Torres et al.
+        source: Guardians of Practice&#58; A Contextual Inquiry of Failure-Mitigation Strategies within Creative Practices
+        year: 2018
+
 ---
 {% include title.html %}
 <br/><br/><hr/><br/><br/>
@@ -238,7 +255,7 @@ data:
 {% for quote in quotes %}
     <p class="quote">{{ quote.text }}</p><br/>
     <span class="subtitle">
-        {{ quote.person }}<i>{% if quote.source %}, {{ quote.source}}{% endif %}{% if quote.year %} ({{ quote.year }}){% endif %}</i>
+        {{ quote.person }}<i>{% if quote.source %}, {{ quote.source}}{% endif %}</i>{% if quote.year %}, {{ quote.year }}{% endif %}
     </span>
     <br/><br/><br/>
     <hr/>

@@ -1,15 +1,20 @@
-{% for type in page.external %}
+{% assign external = page.external %}
+
+{% if include.type %}
+    {% assign external = {include.type} %}
+{% endif %}
+
+
+{% for type in external %}
     {% if include.all %}
         {% assign entries = site.projects | where_exp: "item", "item.external contains type" | map: "external" | map : type | flatten %}
         {% assign type_name = type %}
-        <br/>
-        <h1>{{ type | capitalize }}</h1>
+    
     {% else %}
         {% assign entries = type | last %}
         {% assign type_name = type | first %}
         <h3 class="hr">{{ type_name | capitalize }}</h3>
     {% endif %}
-    
     
     {% if type_name == "exhibition" or type_name == "performance" or type_name == "education" %}
         {% assign type_name = "events" %}
@@ -34,10 +39,11 @@
             {% else %}
                 <b>{{ entry.title }}</b>. {{ entry.location }}. <i>{{ entry.date }}</i>.
         {% endcase %}
-        <br/><br/>
+        <br/>
         {% if entry.award %}
-            <b>★ {{ entry.award | upcase }} AWARD</b><br/><br/>
+            <b style="line-height: 1.5">★ {{ entry.award | upcase }}</b><br/>
         {% endif %}
+        <br/>
     {% endfor %}
 {% endfor %}
 
