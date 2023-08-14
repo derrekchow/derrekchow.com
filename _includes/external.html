@@ -13,7 +13,7 @@
     {% else %}
         {% assign entries = type | last %}
         {% assign type_name = type | first %}
-        <h3 class="hr">{{ type_name | capitalize }}</h3>
+        <h3 class="hr subtitle">{{ type_name | capitalize }}</h3>
     {% endif %}
     
     {% if type_name == "exhibition" or type_name == "performance" or type_name == "education" %}
@@ -25,7 +25,15 @@
     {% for entry in entries %}
         {% case type_name %}
             {% when "credits" %}
-                {{ entry }}
+                <ul class="credits">
+                    {% for item in entry %}
+                        {% if item.first == "" %}
+                            <li>{{ item.last }}</li>
+                        {% else %}
+                            <li><b>{{ item.first }}:</b> {{ item.last }} </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
             {% when "press" %}
                 <b>{{ entry.source }}</b>. <a href="{{ entry.url }}" target="_blank">{{ entry.title }}</a>. <i>{{ entry.date }}</i>.
             {% when "publication" %}
@@ -41,7 +49,7 @@
         {% endcase %}
         <br/>
         {% if entry.award %}
-            <b style="line-height: 1.5">★ {{ entry.award | upcase }}</b><br/>
+            <b style="line-height: 2">★ {{ entry.award | upcase }}</b><br/>
         {% endif %}
         <br/>
     {% endfor %}

@@ -1,6 +1,6 @@
-{% if page.url != "/" and page.url != "/new" %}
+{% if page.type != "home" %}
 <nav>
-    <h4>← <a href="/{% if page.show == 'new' %}new{% endif %}">Derrek Chow</a></h4>
-    <h4><a href="/{% if page.show == 'new' %}new{% endif %}#about">About</a></h4>
+    <h4>← <a href="/">Derrek Chow</a></h4><h4><a href="/#about">About</a></h4>
 </nav>
+<section></section>
 {% endif %}
