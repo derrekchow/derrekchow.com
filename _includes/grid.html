@@ -1,6 +1,6 @@
 
 <r-grid class="main-grid" columns={{ include.columns }} columns-s=1>
-    {% for url in site.data.nav[include.section] %}
+    {% for url in site.data.nav.grid %}
         {% assign project = site.projects | where: "url", url | first %}
         
         {% unless page.url == "/" and project.show == "new" %}

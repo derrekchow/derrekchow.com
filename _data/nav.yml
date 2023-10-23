@@ -1,6 +1,6 @@
 
 
-light:
+grid:
   - /mitigation
   - /transdimensional
   - /lost-searchlights
@@ -16,9 +16,7 @@ light:
   - /face-sketches
   - /scoby
   - /swissball
-  - /airracket
   - /hapstrument
-  - /chandelier
   - /hackathon-projects
   - /creative-coding
   - /from-the-intercom

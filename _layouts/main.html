@@ -7,8 +7,10 @@ layout: compress
         {% include head.html %}
     </head>
     <body>
-        <main class="{{page.type}}" style="margin: auto;">
+        
+        <main class="{{page.type}}">
             {% include nav.html %}
+            <br/>
             {{ content }}
             <section class="subtitle" align="left"><hr/>© Derrek Chow 2023<br/><br/></section> 
         </main>

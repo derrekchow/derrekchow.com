@@ -10,7 +10,7 @@
                 {% for url in project_urls %}
                     {% assign project = site.projects | concat: site.pages | where: "url", url | first %}
 
-                    {% unless page.url != "/new" and project.show == "new" and project.title != page.title %}
+                    {% unless project.hide == True and project.title != page.title %}
                         <a href="{{ project.url }}" class="{% if project.title == page.title %}hr{% endif %} subtitle">{{ project.title }}</a>
                     {% endunless %}
 

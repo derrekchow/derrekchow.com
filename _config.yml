@@ -9,15 +9,12 @@ plugins:
 collections_dir: _data
 
 collections:
-  canhap501:
-    output: true
-    permalink: /:collection/:name
   projects:
     permalink: /:name
     output: true
   pages:
-    output: true
     permalink: /:name
+    output: true
 
 defaults:
   - 
@@ -26,13 +23,7 @@ defaults:
       type: "projects"
     values:
       layout: project
-  - 
-    scope:
-      path: ""
-      type: "canhap501"
-    values:
-      layout: main
-      type: page
+      type: project
   - 
     scope:
       path: ""

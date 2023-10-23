@@ -1,0 +1,346 @@
+interests:
+  - Human-Computer Interaction
+  - Tangibles
+  - Novel interfaces + inputs
+  - New media art
+  - Audiovisual experiences
+
+press:
+  -
+    title: "Kombucha chic: How one student uses microbes, and time, to grow her own clothes"
+    date: 2023-05-04
+    source: CU Boulder Today
+  -
+    title: "CU Boulder student creates clothing from kombucha"
+    date: 2023-05-04
+    source: 9News
+  -
+    title: "Slay the Runway: Fashion workshop celebrates, empowers LGBTQ+ youth"
+    date: 2023-07-08
+    source: CU Boulder Today
+  -
+    title: "A safe space to fashion identity"
+    date: 2023-06-02
+    source: Boulder Weekly
+  -
+    title: "Stitch, Strut, Slay the Runway"
+    date: 2022-spring
+    source: CMCI Now Magazine
+  -
+    title: "AirRacket: Researches Use Air to Simulate Haptic Feedback in VR Sports"
+    date: 2023-05-13
+    source: VR Times
+  -
+    title: "AirRacket: Air pressure simulates racket haptics in VR"
+    date: 2023-05-11
+    source: MIXED
+  -
+    title: "Virtual tennis racket uses air jet to recreate feel of hitting a ball"
+    date: 2023-05-10
+    source: New Scientist
+  -
+    title: "UW Flow: the one stop shop for course information"
+    date: 2018-winter
+    source: Arts Computing Office Newsletter
+
+
+publications:
+  -
+    title: "AirRacket: Perceptual Design of Ungrounded, Directional Force Feedback to Improve Virtual Racket Sports Experiences"
+    authors:
+      - Ching-Yi Tsai
+      - I-Lun Tsai
+      - Derrek Chow
+      - Lauren Wei
+      - Lung-Pan Cheng
+      - Mike Y. Chen
+    conference: UIST
+    type: paper
+    year: 2022
+    award: Best Paper
+  -
+    title: "FormSense: A Fabrication Method to Support Shape Exploration of Interactive Prototypes"
+    authors:
+      - Derrek Chow
+      - Gracie Xia
+      - Jasmine Ou
+    conference: UIST
+    year: 2022
+    type: poster
+  -
+    title: "SCOBY Breastplate: Slowly Growing a Microbial Interface"
+    authors:
+      - Fiona Bell
+      - Derrek Chow
+      - Hyelin Choi
+      - Mirela Alistar
+    conference: TEI
+    year: 2023
+    type: poster
+    award: Best Poster
+  -
+    title: "Designing Interactions with Kombucha SCOBY"
+    authors:
+      - Fiona Bell
+      - Derrek Chow
+      - Eldy Lazaro Vasquez
+      - Laura Devendorf
+      - Mirela Alistar
+    conference: TEI
+    year: 2023
+    type: studio
+  -
+    title: "The Hapstrument: A Bimanual Haptic Interface for Musical Expression."
+    authors:
+      - Jonathan Lane-Smith
+      - Derrek Chow
+      - Sahand Ajami
+    conference: NIME
+    year: 2023
+    type: poster
+
+research:
+  -
+    role: Visiting Researcher
+    group: ACME Lab
+    organization: ATLAS Institute
+    advisor: Ellen Yi-Luen Do
+    location:
+      venue: University of Colorado Boulder
+      city: Boulder
+      country: USA
+    date:
+      start: 2022-05
+      end: 2022-09
+  -
+    role: Undergraduate Research Assistant
+    group: Expressive Input & Interaction Group
+    organization: Cheriton School of Computer Science
+    location:
+      venue: University of Waterloo
+      city: Waterloo
+      country: Canada
+    date:
+      start: 2020-09
+      end: 2021-08
+    advisor:
+      - Daniel Vogel
+      - Quentin Roy	
+  -
+    role: Visiting Researcher
+    group: NTU HCI Lab
+    organization: Department of Computer Science
+    advisor:
+      - Mike Y. Chen
+      - Lung-Pan Cheng
+    location:
+      venue: National Taiwan University
+      city: Taipei
+      country: Taiwan
+    date:
+      start: 2021-01
+      end: 2021-03
+    host:
+      - Daniel Vogel
+      - Quentin Roy	
+
+professional:
+  -
+    role: Interactive Media Designer
+    group: RNDR
+    location:
+      city: The Hauge
+      country: Netherlands
+    date:
+      start: 2021-01
+      end: 2021-03
+
+Software Engineering Intern, StackAdapt, Toronto, Canada, Sep – Dec 2019
+Software Developer Intern, Desire2Learn, Toronto, Canada, Jan – Apr 2019
+Software Developer Intern, Tulip Retail, Kitchener, Canada, May – Aug 2018
+
+education:
+  -
+    degree: B.SE. Software Engineering
+    school: University of Waterloo
+    location:
+      city: Waterloo
+      country: Canada
+    award: With Distinction
+    date:
+      start: 2017
+      end: 2022
+    courses:
+      - "Advanced Topics in HCI: Experimental Design" 
+      - "CanHap501: Introduction to Haptic Information Design"
+      - "Advanced Topics in HCI: Publishing HCI Research"
+
+teaching:
+  -
+    title: "Performance Technologies Playdate"
+    role: Workshop Instructor
+    type: workshop
+    location:
+      venue: University of Colorado Boulder
+      city: Boulder
+      country: USA
+    date: 2022-09-10
+  -
+    title: "Creative Coding"
+    role: Teaching Assistant
+    group: Master’s Non-Linear Narrative
+    type: course
+    location:
+      venue: Royal Academy of Art (KABK)
+      city: The Hague
+      country: Netherlands
+    date: 2021-fall
+   -
+    title: "Pen & Paper Circuits"
+    role: Workshop Instructor
+    type: workshop
+    location:
+      venue: Hack the North
+      city: Waterloo
+      country: Canada
+    date: 2018-09-15
+
+performances:
+  -
+    name: Sai Summer Party
+    date: 2023-06-25
+    role: light-design
+    location:
+      city: New York
+      country: USA
+
+
+Mitigation
+
+AADJA, Direct to Earth & Public Works, San Fransisco, USA, Nov 12, 2022
+Slay the Runway, B2 Center for Media, Arts & Performance, Boulder, USA, Jul 8, 2022
+VJDJ Night, RNDR, The Hague, Netherlands, Dec 17, 2021
+Algo-Kickback, AV Club SF, San Fransisco, United States, Jul 23, 2021
+02.07.2023	“Potluck”, New York, USA
+
+
+Lighting Design
+
+Data Criss Transfer Recombinant Media
+
+06.10.2023	“UMAMI”, San Fransisco, USA [event]
+
+06.05.2023	“UMAMI”, San Fransisco, USA [event]
+
+12.05.2023	“DHS Broadcast”, San Fransisco, USA
+
+
+Live Visual Performance
+
+10.06.2023	“AV Club presents: Club Code”, Gray Area, San Fransisco, USA [event]
+
+04.03.2023	“ALGOKICKBACK”, AV Club SF, Syzygy SF, San Fransisco, USA [event]
+
+22.07.2021	“Algo-Kickback”, AV Club SF, Cat Factory, San Fransisco, USA [event]
+
+
+Live Lighting Performance
+
+15.04.2023	“Writing on Raving”, The Lab, San Fransisco, USA [event]
+
+24.03.2023	“Rødhåd presented by As You Like It and Direct to Earth”, F8 1192 Folsom, San Fransisco, USA [event]
+
+11.03.2023	“Time Crisis at The Warehouse SF", The Warehouse, San Fransisco, USA [event]
+
+24.02.2023	“Direct to Earth Official Movement Pre-Party with Kr!z, Lindsey Herbert + more”, F8 1192 Folsom
+		San Fransisco, USA [clips, event]
+
+27.01.2023	“Direct to Earth with Juana, Lonefront, Tariq and 9-System”, F8 1192 Folsom, San Fransisco, USA
+		[clips, event]
+
+07.01.2023	“bodyheat: Chris is Gay”, F8 1192 Folsom, San Fransisco, USA [clips, event]
+
+12.11.2022	“AADJA presented by Direct to Earth and Public Works”, Public Works, 	San Fransisco, USA [clips, event]
+
+17.12.2021	“VJDJ Night”, RNDR, The Hague, Netherlands
+
+
+exhibitions:
+Synaptic Resonance, Burning Man, Black Rock City, Nevada, USA, Aug 28, 2022
+Process, B2 Center for Media, Arts & Performance, Boulder, USA, Aug 23, 2022
+Out of Bounds, HodgePodge II, NoBo Art Center, Boulder, USA, Jul 1, 2022
+RoBoGo, Salone del Mobile, Magazzini Raccordati, Milan, Italy, Jun 7, 2022
+
+talks:
+  -
+    title: "Light and Shadow Experiments"
+    host: Yitong Zhang
+    event: Demoes and Chill
+    date: ""
+    location:
+      venue: ""
+      city: San Francisco
+      country: USA
+  -
+    group: Expressive Input & Interaction Group
+    host: Daniel Vogel
+    event: Sketching in Hardware
+    date: 2022-10-19
+    location:
+      venue: University of Waterloo
+      city: Waterloo
+      country: Canada
+  -
+    title: "Sketching with Light"
+    host: Mike
+    event: Sketching in Hardware
+    date: 2022-10-01
+    location:
+      venue: Accenture Labs
+      city: Dublin
+      country: Ireland
+  -
+    group: UW Computer Science Club
+    event: Switching Fields Panel
+    date: 2022-03-11
+    location:
+      venue: University of Waterloo
+      city: Waterloo
+      country: Canada
+  - 
+    title: "Interview with Derrek Chow"
+    event: FTI SXSW Fundraiser
+    group: From the Intercom
+    date: 2022-03-11
+    location: Online
+  - 
+    event: PhD Visit
+    group: The Human Computer Interaction Lab
+    date: 2021-09-15
+    host: Patrick Baudisch
+    location:
+      venue: Hasso Plattner Institute
+      city: Postdam
+      country: Germany
+
+awards:
+  -
+    title: Best 3D Printed Hack
+    location:
+      venue: MasseyHacks III
+      city: ""
+      country: Canada
+    date: 2019
+  -
+    title: Innovation
+    Jean Lumb
+    location:
+      city: ""
+      country: Canada
+    date: 2019
+  -
+    title: The Eddies
+    location:
+      city: ""
+      country: Canada
+    date: 2019
