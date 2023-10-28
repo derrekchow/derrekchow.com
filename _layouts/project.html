@@ -1,14 +1,13 @@
 ---
 layout: main
 ---
-<section></section>
 {% include title.html %}<br/><br/>
 <r-grid columns=3 columns-s=1>
     <r-cell span=2>
         {{ content }}
     </r-cell>
     <r-cell span=1 class="about">
-        {% if page.text %}<p>{{ page.text }}</p>{% endif %}
+        {% if page.text %}<p>{{ page.text }}</p><br/>{% endif %}
         {% include external.html %}
     </r-cell>
 </r-grid>

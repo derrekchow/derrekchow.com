@@ -36,9 +36,10 @@ html:root
     font-weight: 300
     font-style: italic
 
-html, body
-    background-color: --var(background-color)
-
+body
+    margin: 0
+    padding: $unit
+    
 main
     margin: auto
     max-width: 1000px
@@ -47,17 +48,14 @@ main
     max-width: 600px
 
 a
-    border-bottom: 1px solid var(--grey)
     white-space: normal
-    text-decoration: none
-    &:hover
-        cursor: pointer
-        border-color: var(--foreground-color)
-        text-decoration: none !important
-        color: var(--foreground-color)
+    border-bottom: 1px solid var(--grey)
 
-.thumbnail:hover a>h3
+.thumbnail:hover a>h3, a:hover
+    text-decoration: none
+    cursor: pointer
     color: var(--foreground-color)
+    border-bottom-color: var(--foreground-color)
 
 h1, h2, h3, h4
     font-weight: lighter
@@ -75,36 +73,38 @@ hr
 .subtitle, hr
     color: var(--grey)
     font-weight: lighter
+    & a:hover
+        border-bottom-color: var(--grey)
 
 nav
+    padding-top: $unit
     display: flex
     justify-content: space-between
     a
         border-bottom-color: transparent
         
+.project
+    .about
+        padding-left: 10px
 
-.project .about
-    padding-left: $unit
+    .credits
+        list-style: none
+        &, li
+            padding: 0
+            margin-left: 0
 
 section
     padding-top: $unit*6
             
 .main-grid
+    margin-top: $unit*2
     .thumbnail
         &:hover
-            -webkit-transition-duration: 0.2s
             filter: brightness(1.1)
         img
             height: 250px
             object-fit: cover
-        h3
-            padding: 0
-        
-.credits
-    list-style: none
-    &, li
-        margin: 0
-        padding: 0
+            margin: 0
 
 .quote
     quotes: "\201C" "\201D" "\2018" "\2019"
@@ -115,6 +115,5 @@ section
     &::after
         content: close-quote
 
-iframe
-    .vp-center
-        height: auto !important
+iframe .vp-center
+    height: auto !important
