@@ -2,19 +2,20 @@
 
 grid:
   - /mitigation
-  - /transdimensional
   - /lost-searchlights
   - /process
   - /synaptic-resonance
   - /slay-the-runway
   - /light-on-bag
   - /body-light-space
+  - /transdimensional
   - /panel
   - /robogo
   - /out-of-bounds
   - /atlas-lights
   - /face-sketches
   - /scoby
+  - /airracket
   - /swissball
   - /hapstrument
   - /hackathon-projects
